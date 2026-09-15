@@ -25,7 +25,7 @@ $sw retro v0.1.0
 
 ## 项目命令
 
-当前目录为空项目，仅有 SweetWave 文档，尚未确定技术栈及包管理器。
+当前目录只有 SweetWave 文档；已规划 Better-T-Stack + pnpm，组合与初始化命令见 `.wave/specs/platform-bootstrap/BOOTSTRAP.md`，尚未正式生成工程。
 
 - 安装依赖、本地开发、类型检查、代码检查、测试、构建：尚未配置；工程初始化后按实际脚本补全，不猜测命令。
 
@@ -51,5 +51,5 @@ $sw retro v0.1.0
 
 ## 架构规则
 
-- 业务代码目录、UI、领域层、API、数据模型、状态管理与测试策略尚未确定，由后续规划明确。
+- 唯一 Web 目标 `apps/web`（Next self 模式），共享 auth/db/ui/config 位于生成器 packages；领域服务和 HTTP API、测试策略以 `.wave/TECH_DECISIONS.md`、共享契约及各模块 ARCH/SPEC 为准。
 - `.wave/` 仅保存工作流状态与交付文档，业务代码使用规划确定的工程目录。
