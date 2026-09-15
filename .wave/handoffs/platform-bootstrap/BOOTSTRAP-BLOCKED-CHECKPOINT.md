@@ -2,7 +2,7 @@
 
 ## 检查点
 
-- 状态：IDLE
+- 状态：BLOCKED
 - 当前节点：N4_IMPLEMENT
 - 范围模式：BOOTSTRAP_ONLY
 - 目标模块：platform-bootstrap
@@ -53,7 +53,3 @@
 - 阻塞：自动开发 .env 创建与明确禁写规则冲突
 - 恢复：收到针对自动开发 .env 的明确授权或修订规划约束后，从 N3 重新核验目录与 dry-run；没有部分生成，不需重建或清理
 - QA / Security：未进入；任务未完成，不宣称质量门通过
-
-## 用户切换设计任务
-
-本次用户显式调用 $sw ui prompt；工程调用已停止且无源码 / 安装现场，将活动运行检查点关闭为 IDLE，原 BLOCKED 证据保存于 .wave/handoffs/platform-bootstrap/BOOTSTRAP-BLOCKED-CHECKPOINT.md。bootstrap 任务与全栈框架仍 BLOCKED；未授予 .env 写入许可，恢复仍须处理该约束并手动 $sw bootstrap。

@@ -1,0 +1,115 @@
+CLI 3.43.0; installed template-generator; SHA256 3513640c33ed56a422e2b12a6d6b7c3e6047244618c044fdd865613c4a0fd79c
+Source: /Users/martinshaw/Library/pnpm/store/v11/links/@/create-better-t-stack/3.43.0/a29b527fd6f8b0f9174070170ea00e4d844e1086601c7aeafff1638054153b1a/node_modules/@better-t-stack/template-generator/dist/index.mjs
+
+2453: function writeEnvFile(vfs, envPath, variables, options = {}) {
+2454: 	let currentContent = "";
+2455: 	if (vfs.exists(envPath)) currentContent = vfs.readFile(envPath) || "";
+2456: 	const newContent = addEnvVariablesToContent(currentContent, variables, options);
+2457: 	vfs.writeFile(envPath, newContent);
+2458: }
+2459: function buildClientVars(frontend, backend, auth) {
+2460: 	const hasNextJs = frontend.includes("next");
+
+2630: 	const polarSuccessUrl = hasNative && !hasWeb ? `${betterAuthUrl}/polar/success` : `${corsOrigin}/success?checkout_id={CHECKOUT_ID}`;
+2631: 	let databaseUrl = null;
+2632: 	if (database !== "none" && dbSetup === "none") switch (database) {
+2633: 		case "postgres":
+2634: 			databaseUrl = "postgresql://postgres:password@localhost:5432/postgres";
+2635: 			break;
+2636: 		case "mysql":
+2637: 			databaseUrl = "mysql://root:password@localhost:3306/mydb";
+2638: 			break;
+2639: 		case "mongodb":
+2640: 			databaseUrl = "mongodb://localhost:27017/mydatabase";
+2641: 			break;
+2642: 		case "sqlite": if (isDatabaseConsumedByDocker({
+2643: 			backend,
+2644: 			serverDeploy,
+2645: 			webDeploy
+2646: 		}) && dbSetup === "none") databaseUrl = "file:../../.data/local.db";
+2647: 		else if (runtime === "workers" || webDeploy === "cloudflare" || serverDeploy === "cloudflare") databaseUrl = "http://127.0.0.1:8080";
+2648: 		else databaseUrl = "file:../../local.db";
+2649: 	}
+2650: 	const hasBetterAuth = auth === "better-auth";
+2651: 	const hasClerk = auth === "clerk";
+2652: 	const needsClerkPublishableKey = hasClerk && (["express", "fastify"].includes(backend) || api !== "none" && [
+2653: 		"self",
+2654: 		"hono",
+2655: 		"elysia"
+2656: 	].includes(backend));
+2657: 	return [
+2658: 		{
+2659: 			key: "BETTER_AUTH_SECRET",
+2660: 			value: generateAuthSecret(),
+2661: 			condition: hasBetterAuth
+2662: 		},
+2663: 		{
+2664: 			key: "BETTER_AUTH_URL",
+2665: 			value: betterAuthUrl,
+2666: 			condition: hasBetterAuth
+2667: 		},
+2668: 		{
+2669: 			key: "CLERK_SECRET_KEY",
+2670: 			value: "",
+2671: 			condition: hasClerk
+2672: 		},
+
+2690: 			value: corsOrigin,
+2691: 			condition: backend !== "self" || auth === "clerk"
+2692: 		},
+2693: 		{
+2694: 			key: "GOOGLE_GENERATIVE_AI_API_KEY",
+2695: 			value: "",
+2696: 			condition: examples?.includes("ai") || false
+2697: 		},
+2698: 		{
+2699: 			key: "DATABASE_URL",
+2700: 			value: databaseUrl,
+2701: 			condition: database !== "none" && dbSetup === "none"
+2702: 		}
+2703: 	];
+
+2705: function processEnvVariables(vfs, config) {
+2706: 	const { backend, frontend, projectName, database, auth, api, examples, dbSetup, webDeploy, serverDeploy, runtime, payments } = config;
+2707: 	const hasReactRouter = frontend.includes("react-router");
+2708: 	const hasTanStackRouter = frontend.includes("tanstack-router");
+2709: 	const hasTanStackStart = frontend.includes("tanstack-start");
+2710: 	const hasNextJs = frontend.includes("next");
+2711: 	const hasNuxt = frontend.includes("nuxt");
+2712: 	const hasSvelte = frontend.includes("svelte");
+2713: 	const hasSolid = frontend.includes("solid");
+2714: 	const hasAstro = frontend.includes("astro");
+2715: 	const hasWebFrontend = hasReactRouter || hasTanStackRouter || hasTanStackStart || hasNextJs || hasNuxt || hasSolid || hasSvelte || hasAstro;
+2716: 	if (hasWebFrontend) {
+2717: 		const clientDir = "apps/web";
+2718: 		if (vfs.directoryExists(clientDir)) writeEnvFile(vfs, `${clientDir}/.env`, buildClientVars(frontend, backend, auth));
+2719: 	}
+2720: 	if (webDeploy === "docker" && hasWebFrontend) {
+
+2757: 	}
+2758: 	const serverVars = buildServerVars(backend, frontend, projectName, auth, api, database, dbSetup, runtime, webDeploy, serverDeploy, payments, examples);
+2759: 	if (backend === "self") {
+2760: 		const webDir = "apps/web";
+2761: 		if (vfs.directoryExists(webDir)) writeEnvFile(vfs, `${webDir}/.env`, serverVars);
+2762: 	} else if (vfs.directoryExists("apps/server")) writeEnvFile(vfs, "apps/server/.env", serverVars);
+2763: }
+
+5870: 			await processUiPackage(vfs, templates, config);
+5871: 			await processAuthTemplates(vfs, templates, config);
+5872: 			await processPaymentsTemplates(vfs, templates, config);
+5873: 			await processAddonTemplates(vfs, templates, config);
+5874: 			await processExampleTemplates(vfs, templates, config);
+5875: 			await processExtrasTemplates(vfs, templates, config);
+5876: 			await processDeployTemplates(vfs, templates, config);
+5877: 			processPackageConfigs(vfs, config);
+5878: 			processDependencies(vfs, config);
+5879: 			finalizeAlchemyDevScripts(vfs, config);
+5880: 			processEnvVariables(vfs, config);
+5881: 			processAuthPlugins(vfs, config);
+5882: 			processAlchemyPlugins(vfs, config);
+5883: 			processPwaPlugins(vfs, config);
+5884: 			processVarlock(vfs, templates, config);
+5885: 			processCatalogs(vfs, config);
+5886: 			processVercelConfig(vfs, config);
+5887: 			processReadme(vfs, config);
+5888: 			if (options.version) {

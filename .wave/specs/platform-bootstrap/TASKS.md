@@ -2,7 +2,7 @@
 
 ## PLATFORM-BOOTSTRAP-001：创建 Better-T-Stack 技术骨架
 
-- [ ] PLATFORM-BOOTSTRAP-001
+- [BLOCKED] PLATFORM-BOOTSTRAP-001
 预估：1h
 任务类型：bootstrap
 执行角色：platform-engineer

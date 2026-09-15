@@ -2,18 +2,18 @@
 
 ## 工作流快照
 
-- 阶段：READY_TO_RUN
+- 阶段：BLOCKED
 - 当前 PRD：.wave/prd/INIT-PRD.md / v3；CONFIRMED
 - 模块数：8（6 个业务、2 个技术）
 - 任务总数：21；已完成：0
-- 全栈框架：PENDING
+- 全栈框架：BLOCKED
 - 前端骨架：PENDING
-- Stitch 设计：NOT_REQUESTED
-- 下一步：等待用户手动执行 $sw bootstrap
+- Stitch 设计：PROMPT_READY
+- 下一步：处理生成器自动创建 apps/web/.env 与禁写规则的冲突后恢复 $sw bootstrap
 - 文档同步状态：P3–P10 完成，质量门 PASSED
 - 上次完整 QA：未执行
 - 距离上次完整 QA 的完成任务数：0
-- 更新时间：2026-09-15T16:21:25+08:00
+- 更新时间：2026-09-15T16:31:48+08:00
 
 ## 文档状态
 
@@ -118,3 +118,11 @@
 | `specs/workspace/SPEC.md` | READY | sha256:a791cbf98c4f900a6d8734b2b67ddce2093a619225fcf33443f2201f5e21bee9 | INIT v3 下游；任务指纹忽略生命周期 |
 | `specs/workspace/TASKS.md` | READY | sha256:19c90091a54cc020408c742ae5706823a589b6163a6bc8d81fb000ede7f8063c | INIT v3 下游；任务指纹忽略生命周期 |
 | `specs/workspace/UI.md` | READY | sha256:7a5b63095cedf33fcac41a0164eec87b7d5a3906523585cc29cf3fc0de04d6e5 | INIT v3 下游；任务指纹忽略生命周期 |
+
+## Bootstrap 当前阻塞
+
+CLI 3.43.0 实时 help / 无写入 dry-run 通过；正式生成前源码核查发现选定组合强制创建 apps/web/.env（随机认证密钥、开发地址、本地 SQLite 路径），与 BOOTSTRAP/ARCH 禁写停止条件冲突。未正式生成、未安装项目依赖、未执行应用检查。交接与源码证据见 .wave/handoffs/platform-bootstrap/PLATFORM-BOOTSTRAP-001.md。前端骨架仍 PENDING，当前任务 BLOCKED，0/21 完成。
+
+## UI 提示词本轮结果
+
+$sw ui prompt：COMPLETED / P5_UI；7 份 READY STITCH_PROMPT，18 个业务页面与 1 个全局壳屏幕组，覆盖 12 项 F/AC。入口 .wave/UI_PROMPT_INDEX.md；原核心规划 / 任务定义未改变，无 STALE 传播；未调用外部 MCP，未生成画面。项目阶段继续 BLOCKED（bootstrap 的 .env 约束），不等同 UI 失败。工程现场归档后 RUN_STATE IDLE，bootstrap 任务仍 BLOCKED。

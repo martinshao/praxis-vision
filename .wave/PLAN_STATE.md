@@ -3,14 +3,14 @@
 ## 检查点
 
 - 状态：COMPLETED
-- 当前节点：P10_HANDOFF
+- 当前节点：P5_UI
 - Scope：INIT
 - 当前 PRD：.wave/prd/INIT-PRD.md / v3
-- 当前调用：$sw plan INIT --from map
-- 当前产物：.wave/PLAN_REPORT.md / PASSED
-- 下一步：等待用户手动执行 $sw bootstrap
+- 当前调用：$sw ui prompt → plan INIT --stage ui --stitch-prompt-only
+- 当前产物：.wave/UI_PROMPT_INDEX.md / READY；历史全规划质量报告 .wave/PLAN_REPORT.md / PASSED
+- 下一步：检查 .wave/UI_PROMPT_INDEX.md；需要生成稿时显式 $sw ui stitch；工程仍 BLOCKED
 - 文档修订恢复命令：$sw plan INIT --resume
-- 更新时间：2026-09-15T16:21:25+08:00
+- 更新时间：2026-09-15T16:31:48+08:00
 
 ## 模块调度
 
@@ -34,10 +34,13 @@
 
 ## P5 Stitch 可选分支
 
-- 模式：DISABLED
-- 提示词状态：NOT_REQUESTED
+- 模式：PROMPT_ONLY
+- 提示词状态：READY
 - 生成状态：NOT_REQUESTED
-- 外部项目 / 屏幕：无
+- 提示词产物：.wave/UI_PROMPT_INDEX.md；7 个模块 stitch/STITCH_PROMPT.md
+- 当前模块：全部有 UI 模块；platform-bootstrap 跳过
+- 外部项目 / 屏幕：无；本轮未发现或调用 MCP
+- 质量：19 个屏幕 / 屏幕组；12 项 F/AC；链接和来源指纹核查通过
 
 ## STALE 与待验证
 
@@ -136,3 +139,7 @@ PRD 内容指纹 sha256:310742fe6a61987e5833c402774bd01151de59a65a0d9913c44aa1cd
 - 确认处理：已收到 v2 确认意图，基础检查 BLOCKED；待补齐隐私和删除规则，不建立有效凭证
 - 第四轮规则决定：$sw prd 统一采用“个人私有工作区、仅 AI 虚构人物、不上传真人照片或公开分享、允许素材发送给生图服务、首版只做可恢复归档”？
 - 当前有效确认：INIT / v3；sha256:310742fe6a61987e5833c402774bd01151de59a65a0d9913c44aa1cdd824349a
+
+## 本次 P5 单阶段结果
+
+UI PROMPT_ONLY COMPLETED；只新增本地提示词，原设计和全部下游定义指纹保持不变。既有 P10 全规划 PASSED 属历史基线，本次不重做或宣称 P9/P10；不自动工程执行。RUN_STATE 的无源码 BLOCKED 现场已归档关闭为 IDLE，bootstrap 生命周期仍 BLOCKED。
