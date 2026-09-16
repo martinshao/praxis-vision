@@ -1,17 +1,19 @@
 # SweetWave 任务清单
 
+规划物料状态：READY
+
 ## TASK-001：作品来源、筛选与私有导出服务
 
 - [ ] TASK-001
-预估：1h
-任务类型：feature
-执行角色：backend-engineer
-涉及项目：apps/web
-风险等级：high
-QA 策略：required
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, studio/TASK-003, workspace/TASK-002
-涉及范围：apps/web/src/server/gallery、db Work；api/works；消费 studio 的私有 media 接口
+      预估：1h
+      任务类型：feature
+      执行角色：backend-engineer
+      涉及项目：apps/web
+      风险等级：high
+      QA 策略：required
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, studio/TASK-003, workspace/TASK-002
+      涉及范围：apps/web/src/server/gallery、db Work；api/works；消费 studio 的私有 media 接口
 
 ### 目标与输入
 
@@ -48,15 +50,15 @@ pnpm --filter @praxis/web test -- gallery
 ## TASK-002：作品库、评价与复用界面
 
 - [ ] TASK-002
-预估：1h
-任务类型：feature
-执行角色：frontend-engineer
-涉及项目：apps/web
-风险等级：medium
-QA 策略：auto
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, gallery/TASK-001, studio/TASK-004
-涉及范围：apps/web/src/features/gallery；src/app/works
+      预估：1h
+      任务类型：feature
+      执行角色：frontend-engineer
+      涉及项目：apps/web
+      风险等级：medium
+      QA 策略：auto
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, gallery/TASK-001, studio/TASK-004
+      涉及范围：apps/web/src/features/gallery；src/app/works
 
 ### 目标与输入
 
@@ -93,15 +95,15 @@ pnpm --filter @praxis/web test -- gallery
 ## TASK-003：人像与技能全闭环验收
 
 - [ ] TASK-003
-预估：1h
-任务类型：feature
-执行角色：qa-engineer
-涉及项目：apps/web
-风险等级：high
-QA 策略：required
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, gallery/TASK-002, studio/TASK-005, workspace/TASK-003
-涉及范围：apps/web/e2e；.wave/qa/gallery；.wave/qa/INIT-ACCEPTANCE.md
+      预估：1h
+      任务类型：feature
+      执行角色：qa-engineer
+      涉及项目：apps/web
+      风险等级：high
+      QA 策略：required
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, gallery/TASK-002, studio/TASK-005, workspace/TASK-003
+      涉及范围：apps/web/e2e；.wave/qa/gallery；.wave/qa/INIT-ACCEPTANCE.md
 
 ### 目标与输入
 
@@ -132,7 +134,6 @@ pnpm --filter @praxis/web test -- gallery
 ### 风险与恢复
 
 人物 → 风格 / 技能 → 拍摄 → 重拍 → 满意 → 导出 → 复用 / 归档；真实生成与提炼未通不得完成。失败保留输入和已成功数据，先定位原因；不得通过吞掉错误或自动盲重发生成来通过。
-
 
 ## 标记
 

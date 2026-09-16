@@ -1,0 +1,62 @@
+{
+  "studio/TASK-001": ["app-shell/APP-SHELL-001", "workspace/TASK-001"],
+  "studio/TASK-002": [
+    "app-shell/APP-SHELL-001",
+    "workspace/TASK-002",
+    "characters/TASK-001",
+    "skills/TASK-002",
+    "photography/TASK-001"
+  ],
+  "studio/TASK-003": ["app-shell/APP-SHELL-001", "studio/TASK-001", "studio/TASK-002"],
+  "studio/TASK-004": [
+    "app-shell/APP-SHELL-001",
+    "studio/TASK-003",
+    "characters/TASK-002",
+    "skills/TASK-004",
+    "photography/TASK-002"
+  ],
+  "studio/TASK-005": ["app-shell/APP-SHELL-001", "studio/TASK-004"],
+  "gallery/TASK-001": ["app-shell/APP-SHELL-001", "studio/TASK-003", "workspace/TASK-002"],
+  "gallery/TASK-002": ["app-shell/APP-SHELL-001", "gallery/TASK-001", "studio/TASK-004"],
+  "gallery/TASK-003": [
+    "app-shell/APP-SHELL-001",
+    "gallery/TASK-002",
+    "studio/TASK-005",
+    "workspace/TASK-003"
+  ],
+  "workspace/TASK-001": ["app-shell/APP-SHELL-001"],
+  "workspace/TASK-002": ["app-shell/APP-SHELL-001", "workspace/TASK-001"],
+  "workspace/TASK-003": ["app-shell/APP-SHELL-001", "workspace/TASK-002"],
+  "photography/TASK-001": ["app-shell/APP-SHELL-001", "workspace/TASK-002", "skills/TASK-001"],
+  "photography/TASK-002": ["app-shell/APP-SHELL-001", "photography/TASK-001", "skills/TASK-004"],
+  "platform-bootstrap/PLATFORM-BOOTSTRAP-001": [],
+  "prompts/TASK-001": ["app-shell/APP-SHELL-001", "workspace/TASK-001"],
+  "prompts/TASK-002": ["app-shell/APP-SHELL-001", "prompts/TASK-001"],
+  "prompts/TASK-003": [
+    "app-shell/APP-SHELL-001",
+    "prompts/TASK-002",
+    "studio/TASK-003",
+    "gallery/TASK-001"
+  ],
+  "prompts/TASK-004": [
+    "app-shell/APP-SHELL-001",
+    "prompts/TASK-003",
+    "studio/TASK-002",
+    "skills/TASK-003"
+  ],
+  "prompts/TASK-005": [
+    "app-shell/APP-SHELL-001",
+    "prompts/TASK-004",
+    "studio/TASK-004",
+    "gallery/TASK-002",
+    "workspace/TASK-003"
+  ],
+  "prompts/TASK-006": ["app-shell/APP-SHELL-001", "prompts/TASK-005", "gallery/TASK-003"],
+  "skills/TASK-001": ["app-shell/APP-SHELL-001", "workspace/TASK-002"],
+  "skills/TASK-002": ["app-shell/APP-SHELL-001", "skills/TASK-001"],
+  "skills/TASK-003": ["app-shell/APP-SHELL-001", "skills/TASK-001", "studio/TASK-001"],
+  "skills/TASK-004": ["app-shell/APP-SHELL-001", "skills/TASK-002", "skills/TASK-003"],
+  "app-shell/APP-SHELL-001": ["platform-bootstrap/PLATFORM-BOOTSTRAP-001"],
+  "characters/TASK-001": ["app-shell/APP-SHELL-001", "workspace/TASK-002"],
+  "characters/TASK-002": ["app-shell/APP-SHELL-001", "characters/TASK-001", "studio/TASK-003"]
+}

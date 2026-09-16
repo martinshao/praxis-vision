@@ -1,0 +1,20 @@
+{
+  "screen": {
+    "deviceType": "DESKTOP",
+    "height": "3126",
+    "htmlCode": {
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzY4ZmQ5ODE4NDMyZDQ2MjA4ZTZjMGNkZDBmNzg4NWRiEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+      "mimeType": "text/html",
+      "name": "projects/5480617662433312349/files/52ff53f9b02643bbaab36fc67db65dff"
+    },
+    "name": "projects/5480617662433312349/screens/cb0ecd39f42f4980ba24c8e866e16517",
+    "screenshot": {
+      "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1WN1UfyBkC3Pl7Y_px4izyKeF5cfBYaqgWLPnY5v97ZiDRykl9y4hXNmSD9r5UfxaTV_4719af7F8_UqGFaictiAxe4VJD9mwbPud6iq1QMwss5gvZSDHbdiLmVL0Prk1UmGRLElNWyd5gCeL2DQPcgHcFYfYUpSCpigpAz28xa8-rZSOgz0qb7uIcYQUYlGWsZw6nj5YYxOoT4ygr1d-FqHDdfnpuTnQILfCQVxhPdw1myQZvilyV_IMA",
+      "name": "projects/5480617662433312349/files/d17f152d49424f72a34f25569608b3d8"
+    },
+    "title": "创建虚构人物 · 桌面端默认状态",
+    "width": "2560"
+  },
+  "evidence": "list_screens returned submitted screen after HTTP502; no repeat request",
+  "checkedAt": "2026-09-15T11:35:46.989Z"
+}

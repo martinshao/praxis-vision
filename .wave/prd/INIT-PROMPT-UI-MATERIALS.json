@@ -1,0 +1,26 @@
+{
+  "mode": "PROMPT_ONLY",
+  "scope": "INIT_v4_delta",
+  "time": "2026-09-15T20:07:42+08:00",
+  "newPages": 3,
+  "editGroups": 5,
+  "verifiedUnchanged": {
+    "specs/studio/stitch/STITCH_PROMPT.md": "4bae0dfb5fb12952f30563d419ca9f0a0e59dcf8769a1a4786d34b400c5ec7a6",
+    "specs/gallery/stitch/STITCH_PROMPT.md": "7c043e3cc7b0afb6d545c81984802cecc3b678f5b246d743f3ffbb91c928ab78",
+    "specs/workspace/stitch/STITCH_PROMPT.md": "21618b1944a2b49933be5ad90978f6f4bf5c7777568ce4efc8f555afa4a69e88",
+    "specs/photography/stitch/STITCH_PROMPT.md": "86e2bcea0479164d49eac0bb9950cebb06fcb8ccc41375aa9083a40b5e172571",
+    "specs/skills/stitch/STITCH_PROMPT.md": "4e9beeedbc06d7976a595d2ec101ab2ae74e5eda81b4304849836b59c6064bc8",
+    "specs/app-shell/stitch/STITCH_PROMPT.md": "d6947ccbad2e5a0bcdf51bd75f9dcbef84dbf38c0bdf6cf6de9ab5d3a10e3742",
+    "specs/characters/stitch/STITCH_PROMPT.md": "dc1b84ce2b44830dafecf664437b79e9525c766793dafa556de60e8f10ee61be",
+    "RUN_STATE.md": "fac3502b1dbb8204b725047d2eea66fa4c8d85d10dc2dd221477568c63f9e5e4",
+    "prd/INIT-PRD.md": "d5a07d69191b8d8538cfc8c2be0b56e4620278ed3e37567d708b3a17ef89292e"
+  },
+  "outputs": {
+    "specs/prompts/stitch/STITCH_PROMPT.md": "a4fe6c6f0c79da614ac62740996d2a66c411a8d6fe73f9e5e5b0450c463e4cf9",
+    "specs/studio/stitch/STITCH_PROMPT_DELTA.md": "63c44654cdc96c4643afecded8fdba3c14a8e015aae669023efc849ab20387e6",
+    "specs/gallery/stitch/STITCH_PROMPT_DELTA.md": "7d70726a75f74e49f460f855e6a14e5fca39c3ff70e634a4900c5bb4d29ca0dc",
+    "specs/workspace/stitch/STITCH_PROMPT_DELTA.md": "14dfb9d34b20311dd49582f2ba068c0c769d5381e20bb8eab641101c4355cdf8",
+    "specs/skills/stitch/STITCH_PROMPT_DELTA.md": "c4a4b6dfd53ca284cd4022b7c5da02192c138862f975f8d5acfb17ca69296113",
+    "specs/app-shell/stitch/STITCH_PROMPT_DELTA.md": "33ded642dbfa7e8dca7334522eda5ef751fc0ec9df8142f7c88a950af88018f2"
+  }
+}

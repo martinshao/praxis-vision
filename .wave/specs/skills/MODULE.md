@@ -24,10 +24,15 @@
 
 ## 文档状态
 
-| Design | UI | Arch | Spec | Tasks | 总状态 |
-|---|---|---|---|---|---|
-| READY | READY | READY | READY | READY | ready |
+| Design | UI    | Arch  | Spec  | Tasks | 总状态 |
+| ------ | ----- | ----- | ----- | ----- | ------ |
+| READY  | READY | READY | READY | READY | ready  |
 
 ## 待生成文档
 
 DESIGN.md、UI.md、ARCH.md、SPEC.md、TASKS.md；TEST_REPORT.md 在运行验证后创建，初始化不伪造。
+
+## PRD v4 必要增量（原功能内容保留）
+
+来源：INIT PRD v4 CONFIRMED；新增F-013–F-015 / AC-013–AC-015，不重写已有能力。详细数据、接口、限值、试用与封面规则见 ../prompts/ARCH.md、../prompts/SPEC.md及共享CONTRACTS。
+POST /api/skills/extract追加sourcePromptVersionId?；只允许本人未归档Prompt的指定版本，original pastedText和来源必须与选择一致，改稿作为编辑内容明示；明确预览发送内容并用户确认才调用辅助服务。独立技能草稿保存sourcePromptVersionId?，需人工校正，默认待试用，不能继承Prompt结果评价。详情显示来源链接/prompts/:promptId?versionId=...；不改原机位规则/单技能槽位。由prompts/TASK-004、TASK-005追加，旧技能任务正文保留。

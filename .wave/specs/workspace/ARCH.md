@@ -18,7 +18,6 @@ MODULE.md、DESIGN.md、UI.md；INIT PRD v3；共享契约 ../CONTRACTS.md 和 .
 - 规划命令契约：根目录 `pnpm dev`、`pnpm typecheck`、`pnpm lint`、`pnpm test`、`pnpm test:e2e`、`pnpm build`、`pnpm db:migrate`、`pnpm worker`。APP-SHELL-001 建立基础 scripts，工作区任务建立 db scripts；studio/TASK-003 建立 worker script；执行前检查真实 package.json，不把当前不存在命令报告为已通过。
 - 用户原话：“采用 Better-T-Stack，具体组合由你推荐”。platform-bootstrap 是唯一工程初始化任务；APP-SHELL-001 扩展生成的 apps/web，不重复创建项目。详见 specs/platform-bootstrap/BOOTSTRAP.md（从模块目录为 ../platform-bootstrap/BOOTSTRAP.md）。共享 auth / db / ui / config 沿用生成器包，领域规则在业务任务实现。SQLite 客户端使用生成器兼容的本地文件连接，由 bootstrap 实际依赖核验；不强行假定 better-sqlite3。
 
-
 ## 模块边界与技术层
 
 业务服务只写本模块数据。依赖：无；通过共享类型 / 服务访问上游，不反向依赖下游。UI 不直连供应商或数据库。
@@ -27,15 +26,15 @@ MODULE.md、DESIGN.md、UI.md；INIT PRD v3；共享契约 ../CONTRACTS.md 和 .
 
 所有接口继承 CONTRACTS.md 的认证、ownerId、分页、事务、错误与版本规则。
 
-| 方法 / 路径 | 输入 | 输出 |
-|---|---|---|
-| `POST /api/projects` | name,tags | Project |
-| `GET /api/projects` | cursor,query | Project[] |
-| `GET /api/projects/:id` | id | Project |
-| `PATCH /api/projects/:id` | name,tags,expectedVersion | Project |
-| `GET /api/archive` | kind,cursor | ArchivedEntity[] |
-| `POST /api/archive/:kind/:id/restore` | id | RestoredEntity |
-| `POST /api/:resource/:id/archive` | id | ArchivedEntity |
+| 方法 / 路径                           | 输入                      | 输出             |
+| ------------------------------------- | ------------------------- | ---------------- |
+| `POST /api/projects`                  | name,tags                 | Project          |
+| `GET /api/projects`                   | cursor,query              | Project[]        |
+| `GET /api/projects/:id`               | id                        | Project          |
+| `PATCH /api/projects/:id`             | name,tags,expectedVersion | Project          |
+| `GET /api/archive`                    | kind,cursor               | ArchivedEntity[] |
+| `POST /api/archive/:kind/:id/restore` | id                        | RestoredEntity   |
+| `POST /api/:resource/:id/archive`     | id                        | ArchivedEntity   |
 
 ## 数据模型
 
@@ -61,3 +60,8 @@ Owner / Session、Project、统一归档接口；Better Auth 会话表；所有�
 ## 验证与取舍
 
 针对本模块版本、越权、输入边界和失败恢复验证；领域 / 服务测试不能访问真实供应商。实际生图 / 提炼须完成 studio/TASK-001 与当前资料核查，缺服务不可宣称对应功能通过。设计和文档 READY 不等于生成效果通过。
+
+## PRD v4 必要增量（原功能内容保留）
+
+来源：INIT PRD v4 CONFIRMED；新增F-013–F-015 / AC-013–AC-015，不重写已有能力。详细数据、接口、限值、试用与封面规则见 ../prompts/ARCH.md、../prompts/SPEC.md及共享CONTRACTS。
+Prompt归属相同owner，可恢复归档类别kind=prompt；GET /api/archive分页读取Prompt元数据；POST /api/archive/prompt/:id/restore与POST /api/prompts/:id/restore使用同一服务规则，不删除version/trial/cover。聚合层按共享schema查询，无workspace→prompts服务反向依赖。归档页新增Prompt类别；历史引用保持可读，恢复导航到/prompts/:promptId。由prompts/TASK-004、TASK-005实现增量，旧TASK-002/003负责原能力，不重复工作。

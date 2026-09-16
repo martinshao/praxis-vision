@@ -1,5 +1,7 @@
 # 本轮技术决策与来源
 
+规划物料状态：READY
+
 ## 技术方案与唯一目标
 
 用户已选择 Better-T-Stack 并授权推荐组合：pnpm workspace；唯一 Web 应用 `apps/web`；Next.js App Router、React、TypeScript、Tailwind CSS、shadcn/ui；self 全栈后端；SQLite + Drizzle；Better Auth；Biome。CLI runtime 固定 none（self 模式要求），实际 Web 和独立 worker 使用 Node.js。媒体存在公开目录外的 `data/media`。生成版本与依赖在 bootstrap handoff 和锁文件固定；当前未生成业务工程。
@@ -33,3 +35,7 @@ AI 提炼同样需要结构化文字能力接入；未接入时展示不可用�
 服务身份、私有媒体读取、关闭注册和归属隔离必须验证；供应商未选定不能执行实际生成或提炼。缺少凭据保持未配置，不读取现有 .env；用户运行时从安全环境提供。所有模型效果与成本仍按 PRD 实验验证，不在本轮造结论。
 
 Better-T-Stack 实时 CLI 3.43.0 help 与无写入 dry-run 通过，完整显式命令与恢复约束见 specs/platform-bootstrap/BOOTSTRAP.md。Node v24.15.0；pnpm 实际版本见 BOOTSTRAP 记录。
+
+## PRD v4 增量决策
+
+新增prompts领域，保持原技术组合/依赖/供应商/部署边界；无新框架或外部连接。关键词查询和共享SQLite增量schema，不加向量库或图检索；结果复用已有job/asset/work与私有media。prompts作为协调入口读取原服务，其他服务仅处理共享来源schema，避免互相服务导入。正式生成之前确认schema与迁移目录实际存在，不将规划当执行。原自动.env写入禁令与bootstrap阻塞保留，本轮不复核CLI或改技术配置。

@@ -24,10 +24,15 @@
 
 ## 文档状态
 
-| Design | UI | Arch | Spec | Tasks | 总状态 |
-|---|---|---|---|---|---|
-| READY | READY | READY | READY | READY | ready |
+| Design | UI    | Arch  | Spec  | Tasks | 总状态 |
+| ------ | ----- | ----- | ----- | ----- | ------ |
+| READY  | READY | READY | READY | READY | ready  |
 
 ## 待生成文档
 
 DESIGN.md、UI.md、ARCH.md、SPEC.md、TASKS.md；TEST_REPORT.md 在运行验证后创建，初始化不伪造。
+
+## PRD v4 必要增量（原功能内容保留）
+
+来源：INIT PRD v4 CONFIRMED；新增F-013–F-015 / AC-013–AC-015，不重写已有能力。详细数据、接口、限值、试用与封面规则见 ../prompts/ARCH.md、../prompts/SPEC.md及共享CONTRACTS。
+ShotPlanVersion和GenerationJob冻结promptOrigin与实际提交文本/适配遗漏/输入引用（详见prompts/ARCH）；旧字段nullable。POST /api/prompts/:id/reuse由prompts协调调用现有草稿创建，不直接生图；studio依据共享schema校验引用owner/归档/版本及portrait范围，无studio→prompts服务导入。快捷草稿显示来源版本与unsupported未应用项，保留原文；替换须确认和expectedDraftVersion。最终预览/显式提交仍走现有任务接口，不静默忽略unsupported或覆盖身份。任务完成后Prompt详情查询已有job，不另建队列/重复provider调用。增量由prompts/TASK-001、TASK-004、TASK-005追加，原任务保留。

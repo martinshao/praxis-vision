@@ -3,15 +3,15 @@
 ## TASK-001：风格版本与按维度组合服务
 
 - [ ] TASK-001
-预估：1h
-任务类型：feature
-执行角色：backend-engineer
-涉及项目：apps/web
-风险等级：medium
-QA 策略：auto
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, workspace/TASK-002, skills/TASK-001
-涉及范围：apps/web/src/server/photography、db 风格表、api/styles
+      预估：1h
+      任务类型：feature
+      执行角色：backend-engineer
+      涉及项目：apps/web
+      风险等级：medium
+      QA 策略：auto
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, workspace/TASK-002, skills/TASK-001
+      涉及范围：apps/web/src/server/photography、db 风格表、api/styles
 
 ### 目标与输入
 
@@ -48,15 +48,15 @@ pnpm --filter @praxis/web test -- photography
 ## TASK-002：风格编辑与组合界面
 
 - [ ] TASK-002
-预估：1h
-任务类型：feature
-执行角色：frontend-engineer
-涉及项目：apps/web
-风险等级：medium
-QA 策略：auto
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, photography/TASK-001, skills/TASK-004
-涉及范围：apps/web/src/features/photography；src/app/styles
+      预估：1h
+      任务类型：feature
+      执行角色：frontend-engineer
+      涉及项目：apps/web
+      风险等级：medium
+      QA 策略：auto
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, photography/TASK-001, skills/TASK-004
+      涉及范围：apps/web/src/features/photography；src/app/styles
 
 ### 目标与输入
 
@@ -87,7 +87,6 @@ pnpm --filter @praxis/web test -- photography
 ### 风险与恢复
 
 按维度来源选择、预览另存、在工作台应用。失败保留输入和已成功数据，先定位原因；不得通过吞掉错误或自动盲重发生成来通过。
-
 
 ## 标记
 

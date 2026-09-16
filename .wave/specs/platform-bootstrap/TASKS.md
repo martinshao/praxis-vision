@@ -2,16 +2,16 @@
 
 ## PLATFORM-BOOTSTRAP-001：创建 Better-T-Stack 技术骨架
 
-- [BLOCKED] PLATFORM-BOOTSTRAP-001
-预估：1h
-任务类型：bootstrap
-执行角色：platform-engineer
-涉及项目：根目录、apps/web、packages/auth、packages/db、packages/ui、packages/config
-风险等级：high
-QA 策略：required
-并行策略：serial
-依赖：无
-涉及范围：BOOTSTRAP.md 显式生成范围及独立安装、最小技术验证
+- [x] PLATFORM-BOOTSTRAP-001
+  预估：1h
+  任务类型：bootstrap
+  执行角色：platform-engineer
+  涉及项目：根目录、apps/web、packages/auth、packages/db、packages/ui、packages/config
+  风险等级：high
+  QA 策略：required
+  并行策略：serial
+  依赖：无
+  涉及范围：BOOTSTRAP.md 显式生成范围及独立安装、最小技术验证
 
 ### 输入与实现
 

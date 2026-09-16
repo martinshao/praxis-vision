@@ -1,0 +1,72 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"projectId\":\"5480617662433312349\",\"sessionId\":\"11393797764049488440\",\"outputComponents\":[{\"design\":{\"screens\":[{\"screenshot\":{\"name\":\"projects/5480617662433312349/files/221a056b81bc42c7a79c24519953850f\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1UcItmw9iorND6tjlp8Xr-rLDiZKrIEDCDU6sF1BN6IgK1LxIozZ-g7Pp7fcp_lm9dkckDjBStwIiDEnJ7T-D_nOp66gbJH6Zc_Mi04VDXX6Khmh9XsdEQ4aEjKAcLhkdPcauwkw8Ct0AV5yk6Q6a4A9Ruka-heKyHX3vuKWYfHrXJL1JA5p23VwcysJkM9j8QHXXW3dkXD51dKuaryfkpN_JRaVWMFVecVRkvHC5Sfj_Q86ATwLhy5QJE\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/cb3e398ed9794f408ad6591102203e88\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzMxZTJmOWQwNWY4MjRkYzNiOTBjMDg0NTIwMWZlMjZhEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"id\":\"054cd8a9c7394b98a65364294448af99\",\"generatedBy\":\"figaro_agent\",\"width\":\"2560\",\"height\":\"2998\",\"title\":\"条目详情与版本 · 桌面端默认状态\",\"prompt\":\"设计“条目详情与版本”桌面端页面，路由 /prompts/:promptId。\\n遵循深色极简摄影工作台规范（设计系统 {{DATA:DESIGN_SYSTEM:DESIGN_SYSTEM_1}}）：\\n1. 侧栏主导航统一为：项目、人物、Prompt（当前选中高亮）、摄影技能、摄影风格、作品；顶部快捷生成常驻按钮；底部独立次级归档入口。\\n2. 顶栏面包屑：Prompt库 / [名称]；右侧状态展示当前版本[版本]、题材标签（如“AI虚构人像”）、状态（正常/已归档）；主要动作按钮“载入快捷生成”（高亮浅色按钮，点击去/quick建立独立草稿，不直接生图），次级动作“复制原文”。\\n3. 主界面两栏/三区专业工作台布局：\\n   - 左侧主内容区（原文为主阅读与版本对比编辑）：\\n     * 当前版本原文阅读器：大字号清晰展示[原文]完整提示词文本，带字符数与结构化分段，支持一键复制，只读展示锁定。\\n     * 版本管理与就地编辑区（原始版本保留，同一页面无需跳转）：版本切换标签（[版本] 当前基准、[版本] 初始版）、文本差异高亮说明、版本修改备注输入框、修改后的新提示词编辑框、“另存为新版本”自然操作按钮。\\n     * 独立操作入口：“提炼为摄影技能”按钮，说明进入独立待试用草稿流程（发送内容预览 -\\u003e 确认辅助提炼 -\\u003e 人工校正保存）。\\n   - 右侧信息与试用面板（360px~400px规范侧栏）：\\n     * 来源及适用条件独立卡片：外部来源仅展示[来源链接]纯文本链接，不抓取或内嵌外部肖像；已知模型配置明确标为[模型：未知]或输入模型名，标注适用参数与限制条件。\\n     * 封面展示区：展示当前版本封面，若采用旧版则明确标记“来自旧版[版本]，旧版评价不继承”，封面图片使用高质感深色线框并清晰标注[本人生成结果占位图]。\\n     * 本人试用记录与结果列表：每次试用任务所属[版本]、实际提交文本摘要、[模型：未知]、状态标签（未评价/满意/待改进），明确展示“失败/拒绝不能作为成功结果”。提供“用作封面”按钮（仅限本人成功未归档结果）。\\n     * 新版本未试用状态说明：当前选中的新版本若无试用，清晰展示“本版本未试用”文字摘要与占位。\\n4. 严格遵守安全与文案约束：\\n   - 全中文界面，无“（建议）”后缀，动作自然。\\n   - 绝不伪造真实肖像、相机假参数（如曝光光圈假数据）、加密/沙箱/节点/算力状态或保证。\\n   - 所有未知字段使用纯占位 [名称]、[版本]、[保存时间]、[原文]、[模型：未知]、[本人生成结果占位图]。\\n   - 无真人上传、无公开分享、无永久删除。样式与已有的 Prompt 库、收集 Prompt 页面高度统一。\",\"name\":\"projects/5480617662433312349/screens/054cd8a9c7394b98a65364294448af99\",\"theme\":{\"colorMode\":\"DARK\",\"roundness\":\"ROUND_EIGHT\",\"customColor\":\"#FAFAFA\",\"colorVariant\":\"NEUTRAL\",\"overridePrimaryColor\":\"#FAFAFA\",\"overrideNeutralColor\":\"#18181B\"},\"deviceType\":\"DESKTOP\",\"screenType\":\"DESIGN\",\"screenMetadata\":{\"agentType\":\"PRO_AGENT\",\"status\":\"COMPLETE\"},\"designSystem\":{\"name\":\"assets/1178394102340625614\",\"designSystem\":{\"displayName\":\"Praxis Vision · Quiet Portrait Studio\",\"theme\":{\"colorMode\":\"DARK\",\"roundness\":\"ROUND_EIGHT\",\"customColor\":\"#FAFAFA\",\"designMd\":\"图片为中心的私有 AI 虚构人像摄影工作台。背景 #18181B，面板 #27272A，主要文字 #FAFAFA，次要文字 #D4D4D8；浅色主按钮深色文字。中文优先 Noto Sans 与系统中文回退；正文16px/1.5，8px间距基准，8px圆角。桌面左导航224px，主预览占主要空间，参数栏360px。1024px以下参数区分区，768px以下抽屉导航单列。触控目标44px，文字对比4.5:1，键盘焦点可见。所有照片与业务数据使用标注占位，不提供真人上传、公开分享或永久删除。导航项目/人物/摄影技能/摄影风格/作品，快捷生成常驻，归档次级入口。\",\"colorVariant\":\"NEUTRAL\",\"overridePrimaryColor\":\"#FAFAFA\",\"overrideNeutralColor\":\"#18181B\"}},\"version\":\"1\"}}],\"theme\":{}}},{\"text\":\"已为您生成「条目详情与版本 (路由: /prompts/:promptId)」桌面端页面设计（条目详情与版本 · 桌面端默认状态）。\\n\\n### 设计与功能落地说明\\n\\n1. **全局导航与信息架构继承**：\\n   - 侧栏主导航统一为「项目、人物、Prompt（高亮选中）、摄影技能、摄影风格、作品」；\\n   - 顶部常驻「快捷生成」，底部设有独立的次级「归档」入口；\\n   - 顶部面包屑清晰标明 `Prompt 库 / [名称]`，并展示当前基准 `[版本]`、`AI虚构人像` 题材标签与状态标识。\\n\\n2. **核心阅读与就地版本迭代（无需离开页面）**：\\n   - **原文主阅读区**：将当前版本的 `[原文]` 结构化完整呈现，包含主体结构、光影布局、影调色彩等分段并标注字符数与保存时间，只读状态保证提示词资产的严谨性；\\n   - **同一页面版本迭代**：直接在下方提供版本基准对比、文本差异说明（如微调高光与阴影细节）、版本修改备注输入，以及新版本草稿编辑框，配合自然的「另存为新版本」动作按钮，确保旧版本历史完整保留；\\n   - **提炼为摄影技能**：提供独立入口进入辅助提炼草稿流程，明确流程三步（发送内容预览 → 确认辅助提炼 → 人工校正保存），不直接覆盖 Prompt 原文。\\n\\n3. **来源、适用条件与封面溯源规范**：\\n   - **独立来源面板**：外部参考仅以 `[来源链接]` 文本展示，明确声明不抓取、不内嵌外部肖像；模型基底标为 `[模型：未知]`，标明建议比例与适用步数；\\n   - **封面与继承关系**：封面预览采用高质感深色线框并明确标注 `[本人生成结果占位图]`，若沿用旧版封面明确标记「来自旧版 [版本]，旧版评价不继承」；\\n\\n4. **试用记录与结果透明性**：\\n   - 列出本人历次本地试用记录（如满意、待改进），注明实际提交文本摘要与关联版本；\\n   - 明确标注规则：“失败/拒绝的任务不能作为成功结果；仅本人成功且未归档的记录可用作封面”；\\n   - 针对尚未跑图的新编辑版本，底部明确呈现「本版本未试用」文字摘要占位。\\n\\n5. **严格合规与纯占位体系**：\\n   - 按钮全量采用「载入快捷生成」、「复制原文」、「另存为新版本」、「用作封面」、「开始提炼技能」等自然动词，绝无“（建议）”字样；\\n   - 严格杜绝真实肖像、相机伪造参数、沙箱/节点/算力状态等开发调试标签；未知数据统一采用纯占位符 `[名称]`、`[版本]`、`[保存时间]`、`[原文]`、`[模型：未知]` 与 `[本人生成结果占位图]`。\"},{\"suggestion\":\"查看新版本未试用时的局部空白占位状态\"},{\"suggestion\":\"补充非人像题材禁用“载入快捷生成”的状态说明卡片\"},{\"suggestion\":\"进入 /quick 查看载入草稿后的承接交互演示\"}]}"
+    }
+  ],
+  "structuredContent": {
+    "outputComponents": [
+      {
+        "design": {
+          "screens": [
+            {
+              "designSystem": {
+                "designSystem": {
+                  "displayName": "Praxis Vision · Quiet Portrait Studio",
+                  "theme": {
+                    "colorMode": "DARK",
+                    "colorVariant": "NEUTRAL",
+                    "customColor": "#FAFAFA",
+                    "designMd": "图片为中心的私有 AI 虚构人像摄影工作台。背景 #18181B，面板 #27272A，主要文字 #FAFAFA，次要文字 #D4D4D8；浅色主按钮深色文字。中文优先 Noto Sans 与系统中文回退；正文16px/1.5，8px间距基准，8px圆角。桌面左导航224px，主预览占主要空间，参数栏360px。1024px以下参数区分区，768px以下抽屉导航单列。触控目标44px，文字对比4.5:1，键盘焦点可见。所有照片与业务数据使用标注占位，不提供真人上传、公开分享或永久删除。导航项目/人物/摄影技能/摄影风格/作品，快捷生成常驻，归档次级入口。",
+                    "overrideNeutralColor": "#18181B",
+                    "overridePrimaryColor": "#FAFAFA",
+                    "roundness": "ROUND_EIGHT"
+                  }
+                },
+                "name": "assets/1178394102340625614",
+                "version": "1"
+              },
+              "deviceType": "DESKTOP",
+              "generatedBy": "figaro_agent",
+              "height": "2998",
+              "htmlCode": {
+                "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzMxZTJmOWQwNWY4MjRkYzNiOTBjMDg0NTIwMWZlMjZhEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+                "mimeType": "text/html",
+                "name": "projects/5480617662433312349/files/cb3e398ed9794f408ad6591102203e88"
+              },
+              "id": "054cd8a9c7394b98a65364294448af99",
+              "name": "projects/5480617662433312349/screens/054cd8a9c7394b98a65364294448af99",
+              "prompt": "设计“条目详情与版本”桌面端页面，路由 /prompts/:promptId。\n遵循深色极简摄影工作台规范（设计系统 {{DATA:DESIGN_SYSTEM:DESIGN_SYSTEM_1}}）：\n1. 侧栏主导航统一为：项目、人物、Prompt（当前选中高亮）、摄影技能、摄影风格、作品；顶部快捷生成常驻按钮；底部独立次级归档入口。\n2. 顶栏面包屑：Prompt库 / [名称]；右侧状态展示当前版本[版本]、题材标签（如“AI虚构人像”）、状态（正常/已归档）；主要动作按钮“载入快捷生成”（高亮浅色按钮，点击去/quick建立独立草稿，不直接生图），次级动作“复制原文”。\n3. 主界面两栏/三区专业工作台布局：\n   - 左侧主内容区（原文为主阅读与版本对比编辑）：\n     * 当前版本原文阅读器：大字号清晰展示[原文]完整提示词文本，带字符数与结构化分段，支持一键复制，只读展示锁定。\n     * 版本管理与就地编辑区（原始版本保留，同一页面无需跳转）：版本切换标签（[版本] 当前基准、[版本] 初始版）、文本差异高亮说明、版本修改备注输入框、修改后的新提示词编辑框、“另存为新版本”自然操作按钮。\n     * 独立操作入口：“提炼为摄影技能”按钮，说明进入独立待试用草稿流程（发送内容预览 -> 确认辅助提炼 -> 人工校正保存）。\n   - 右侧信息与试用面板（360px~400px规范侧栏）：\n     * 来源及适用条件独立卡片：外部来源仅展示[来源链接]纯文本链接，不抓取或内嵌外部肖像；已知模型配置明确标为[模型：未知]或输入模型名，标注适用参数与限制条件。\n     * 封面展示区：展示当前版本封面，若采用旧版则明确标记“来自旧版[版本]，旧版评价不继承”，封面图片使用高质感深色线框并清晰标注[本人生成结果占位图]。\n     * 本人试用记录与结果列表：每次试用任务所属[版本]、实际提交文本摘要、[模型：未知]、状态标签（未评价/满意/待改进），明确展示“失败/拒绝不能作为成功结果”。提供“用作封面”按钮（仅限本人成功未归档结果）。\n     * 新版本未试用状态说明：当前选中的新版本若无试用，清晰展示“本版本未试用”文字摘要与占位。\n4. 严格遵守安全与文案约束：\n   - 全中文界面，无“（建议）”后缀，动作自然。\n   - 绝不伪造真实肖像、相机假参数（如曝光光圈假数据）、加密/沙箱/节点/算力状态或保证。\n   - 所有未知字段使用纯占位 [名称]、[版本]、[保存时间]、[原文]、[模型：未知]、[本人生成结果占位图]。\n   - 无真人上传、无公开分享、无永久删除。样式与已有的 Prompt 库、收集 Prompt 页面高度统一。",
+              "screenMetadata": { "agentType": "PRO_AGENT", "status": "COMPLETE" },
+              "screenType": "DESIGN",
+              "screenshot": {
+                "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1UcItmw9iorND6tjlp8Xr-rLDiZKrIEDCDU6sF1BN6IgK1LxIozZ-g7Pp7fcp_lm9dkckDjBStwIiDEnJ7T-D_nOp66gbJH6Zc_Mi04VDXX6Khmh9XsdEQ4aEjKAcLhkdPcauwkw8Ct0AV5yk6Q6a4A9Ruka-heKyHX3vuKWYfHrXJL1JA5p23VwcysJkM9j8QHXXW3dkXD51dKuaryfkpN_JRaVWMFVecVRkvHC5Sfj_Q86ATwLhy5QJE",
+                "name": "projects/5480617662433312349/files/221a056b81bc42c7a79c24519953850f"
+              },
+              "theme": {
+                "colorMode": "DARK",
+                "colorVariant": "NEUTRAL",
+                "customColor": "#FAFAFA",
+                "overrideNeutralColor": "#18181B",
+                "overridePrimaryColor": "#FAFAFA",
+                "roundness": "ROUND_EIGHT"
+              },
+              "title": "条目详情与版本 · 桌面端默认状态",
+              "width": "2560"
+            }
+          ],
+          "theme": {}
+        }
+      },
+      {
+        "text": "已为您生成「条目详情与版本 (路由: /prompts/:promptId)」桌面端页面设计（条目详情与版本 · 桌面端默认状态）。\n\n### 设计与功能落地说明\n\n1. **全局导航与信息架构继承**：\n   - 侧栏主导航统一为「项目、人物、Prompt（高亮选中）、摄影技能、摄影风格、作品」；\n   - 顶部常驻「快捷生成」，底部设有独立的次级「归档」入口；\n   - 顶部面包屑清晰标明 `Prompt 库 / [名称]`，并展示当前基准 `[版本]`、`AI虚构人像` 题材标签与状态标识。\n\n2. **核心阅读与就地版本迭代（无需离开页面）**：\n   - **原文主阅读区**：将当前版本的 `[原文]` 结构化完整呈现，包含主体结构、光影布局、影调色彩等分段并标注字符数与保存时间，只读状态保证提示词资产的严谨性；\n   - **同一页面版本迭代**：直接在下方提供版本基准对比、文本差异说明（如微调高光与阴影细节）、版本修改备注输入，以及新版本草稿编辑框，配合自然的「另存为新版本」动作按钮，确保旧版本历史完整保留；\n   - **提炼为摄影技能**：提供独立入口进入辅助提炼草稿流程，明确流程三步（发送内容预览 → 确认辅助提炼 → 人工校正保存），不直接覆盖 Prompt 原文。\n\n3. **来源、适用条件与封面溯源规范**：\n   - **独立来源面板**：外部参考仅以 `[来源链接]` 文本展示，明确声明不抓取、不内嵌外部肖像；模型基底标为 `[模型：未知]`，标明建议比例与适用步数；\n   - **封面与继承关系**：封面预览采用高质感深色线框并明确标注 `[本人生成结果占位图]`，若沿用旧版封面明确标记「来自旧版 [版本]，旧版评价不继承」；\n\n4. **试用记录与结果透明性**：\n   - 列出本人历次本地试用记录（如满意、待改进），注明实际提交文本摘要与关联版本；\n   - 明确标注规则：“失败/拒绝的任务不能作为成功结果；仅本人成功且未归档的记录可用作封面”；\n   - 针对尚未跑图的新编辑版本，底部明确呈现「本版本未试用」文字摘要占位。\n\n5. **严格合规与纯占位体系**：\n   - 按钮全量采用「载入快捷生成」、「复制原文」、「另存为新版本」、「用作封面」、「开始提炼技能」等自然动词，绝无“（建议）”字样；\n   - 严格杜绝真实肖像、相机伪造参数、沙箱/节点/算力状态等开发调试标签；未知数据统一采用纯占位符 `[名称]`、`[版本]`、`[保存时间]`、`[原文]`、`[模型：未知]` 与 `[本人生成结果占位图]`。"
+      },
+      { "suggestion": "查看新版本未试用时的局部空白占位状态" },
+      { "suggestion": "补充非人像题材禁用“载入快捷生成”的状态说明卡片" },
+      { "suggestion": "进入 /quick 查看载入草稿后的承接交互演示" }
+    ],
+    "projectId": "5480617662433312349",
+    "sessionId": "11393797764049488440"
+  }
+}

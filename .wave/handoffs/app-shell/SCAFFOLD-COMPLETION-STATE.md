@@ -1,0 +1,21 @@
+# SweetWave 执行状态
+
+- 状态：IDLE
+- 当前节点：N8_CHECKPOINT
+- 完成范围：SCAFFOLD_ONLY
+- 完成模块/任务：app-shell/APP-SHELL-001 [x]
+- Git基线：01be53ecb321293f1fef320c4110d6d9c7c6aacd（未提交，HEAD未改变）
+- 前端骨架：READY
+- 全栈框架：READY
+- 验证/审查：N5/N6 PASSED
+- 安全/QA：PASSED（页面骨架范围，非产品私有授权验收）
+- 完成：21显式路由与Prompt三入口，导航/面包屑、移动drawer、404/error/loading，规划测试依赖及真实脚本
+- 设计来源：只读Stitch MCP项目5480617662433312349，global-shell30fcee553b674c9f90e0d3ab7764cf0e，DS assets/1178394102340625614；旧导航按v4更新
+- 验证命令：pnpm typecheck、pnpm test（4项）、pnpm test:e2e -- shell（5通过/1桌面不适用跳过）、pnpm build、构建后pnpm lint、pnpm peers check、git diff --check 均exit0
+- 证据：.wave/handoffs/app-shell/APP-SHELL-001.md；.wave/specs/app-shell/TEST_REPORT.md
+- 安全：.wave/security/app-shell/APP-SHELL-001-SECURITY.md；对应security handoff
+- QA：.wave/qa/app-shell/APP-SHELL-001-QA.md、MODULE-QA.md；对应qa handoff
+- 限制：用户视觉/屏幕阅读器/Safari/Firefox尚未检查；真实所有者授权/注册关闭/业务数据/生图属于后续任务
+- 保护：未读取/编辑.env、未重复生成工程、未修改上游规划；未提交/推送/迁移/部署
+- 停止点：用户检查页面骨架后手动执行 `$sw run --all`；首个业务任务workspace/TASK-001
+- 恢复：先读STATUS/RUN_STATE/TASKS；scaffold已完成，不自动执行业务任务

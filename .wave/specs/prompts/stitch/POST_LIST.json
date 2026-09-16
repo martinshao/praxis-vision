@@ -1,0 +1,284 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"screens\":[{\"name\":\"projects/5480617662433312349/screens/9b493a6495234f14a390752e6f20a354\",\"title\":\"摄影技能 · 版本与试用记录\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/7ab0255e8001480e8901483cf5e9db2a\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1VjPVXcZphZYGlShNohnb3fpgCo2T0D6_UhBSgxRPoRLZaLc284NzsV5y5rzxHsdcLam5Os84xz4ODEGul5U3zhNkwr0tdkrVfdlxQl6dy4eSW85I-lLgbs9aLk9klA82w7V-X3mVay4wX7twX-wf-xSFBsNI_JYtbRDA3kYptdxN9zWBVVgZK2dnllPOfl7Z_kR3-91ZdXOqI9WUFVhQGPr8gceBcUzZvIhSKYm69EJ6nr5IjBtOV9UNs\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/c49789e61954465c8186aac91db322a9\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzJjMGE3ZGUxZmFhMzRjMTNhZmFhNTAxZGUxOTY0MDg0EgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"4142\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/5480617662433312349/screens/ab02899a6eaf4a17b711234266a9b50c\",\"title\":\"摄影技能 · 创建与提炼草稿\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/dd8432aa298a49d28688d9ad0240d374\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1VZUHwTRx2QxfQvBWsr9lye4q2_Lxw0qw7UDs87FlCm2moNjUfM3vaSPnV_eB48wG3ztfAqpmcL3mdolmqFaTD8jUPIw6TDpejItZO8_qfEb8e65j1FO-C89NbxlA_EWNHyBRqznZmenC2jcGMRTeeFp4-5BpwiT-L7bFim0xcWsMRNpf69knLkRXet7mnUSK4k7SYCOhtKndPe4TzHDLdSe0SQ2qc2S3VvwOHmTftIvATlifjRd5BGoMo\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/48bd520308b646d99bafa6ef16323fed\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzg3YmU5YTcwZGFhMTRkMDNhMGYwOTRiNTQxZWRjZTZjEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"3968\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/5480617662433312349/screens/f01f4db924ff4517bf2365df93490a3a\",\"title\":\"项目详情 · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/71f87bd60f6c4435934250d91ea3536b\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1V1X0IXUiqEE23_ekCXKwYNrixClrbui9rCdG-PvoQL256D2T35OlweklFE2J8sA4MpCakocOCcK6q7uzqX6IGBrsoZAe59Lx3a6twhjU89ybWLuEi-uJZwp5AFj2HOheEkTQdfEOdlW84of_igcpQAONx5Yn6HgPbpokJkdYNVqrQW2uYw3qNkZYyhLfTgC02PG9XbLBUL9x-1Z9OLn40Dq9BePlloCeLM7YjgcNUuB0m6gQUnp4J9VUo\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/5b35140e50d646c4afd4227cc1d0fa26\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2EzNTc4YWFjM2IxNzQ3ZThiOWJkMTljZmMyNWFmYjQ3EgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2304\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/5480617662433312349/screens/268919fe72d74cf8aae38e24776ba295\",\"title\":\"人物列表 · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/5b98b77167e145669bef3a47d5e3bf8f\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1WbY9SOHljVNITrR15ialW8FdC9ZdMhgCV8M7k-qO2H6AEPP1iWN_vXAmx3hzVZKvwLV7uyrdzcsKWxQfiP8kk_jZEt8R61AlCS66OhRU_380Eaoo75KffpT-GSwbHx8SYB1thuJ3I8XwmsaSbZkoXnreTxstJnyje1a1lNn0abnGzHUbMm_wrVnyiv2qjJBimgu_8qLdWsXalKvJQgMD787wgbFUcex5Lm1zzEUx2f-cHfJDSE1rjAvA\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/191f1a67f8224c83b05b9b6009d5bc2b\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzgyZDY5NGUyNTA3YjQyZTNiNDQwZTgxNDQ0MDkzNWE4EgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2140\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/5480617662433312349/screens/cb0ecd39f42f4980ba24c8e866e16517\",\"title\":\"创建虚构人物 · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/d17f152d49424f72a34f25569608b3d8\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1WN1UfyBkC3Pl7Y_px4izyKeF5cfBYaqgWLPnY5v97ZiDRykl9y4hXNmSD9r5UfxaTV_4719af7F8_UqGFaictiAxe4VJD9mwbPud6iq1QMwss5gvZSDHbdiLmVL0Prk1UmGRLElNWyd5gCeL2DQPcgHcFYfYUpSCpigpAz28xa8-rZSOgz0qb7uIcYQUYlGWsZw6nj5YYxOoT4ygr1d-FqHDdfnpuTnQILfCQVxhPdw1myQZvilyV_IMA\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/52ff53f9b02643bbaab36fc67db65dff\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzY4ZmQ5ODE4NDMyZDQ2MjA4ZTZjMGNkZDBmNzg4NWRiEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"3126\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/5480617662433312349/screens/ada9d19e96674a4ea28edd0d47d970d3\",\"title\":\"档案编辑与组合 · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/764c45564efc47aa9828cc28e464a0a9\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1XOAQ5N6GnPODa-5-bliwZl0xMPNVe0XuXFpjdkyPYw0-7YR9eioRs06h_e0APTRKqDKPM2y-PAUG9L9Ljnh0nCiXkfuFbraUO83RF7_Zs-OYEUuUmn6L0i_aYYjCFR5QKyxhOz9J1D47p-mLyTYuT_6mSJLB3adVEtOV_p2bxWoPVahPhiR_rqyIwv7LvWoUu8hDQohMC8fBokpi_g8re6tsrz5mwjb-bKT9kxsYBhqGztqiFJYfERXg\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/d18240c4c8194e93a4f36ccb53f7512b\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2ZjMmI4NzhiYWQwYjQ2OGVhZmYxNWIxZTdjYjA5MjRhEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"3872\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/5480617662433312349/screens/bb732e50f02448f5a2e341dcd71cd602\",\"title\":\"作品来源与复用 · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/7aeabb74e28b4ab8bc0705644ab582d6\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1U2AjrYxND9fQsgNeUob68W3fxwV8o_n1OfZm8JrIyllHlgeVbaeb4Wg7qg7RXMj8cv1HrnJNDeDrgJ9LS5crwN5s41dN5Z-yEh_S0k_RCAXFaWpPHjuYJHXjJsO2qzMHBGvBo0MsgS-Pp1qY9Zx714eYcJUHAzlVvbA0ZQKcKMLl_-I8-_-AE_--9taSkS6Kxg0CEugHt8Ja1R8tJR8zESvyOcaDogM0G17t1iIseRTIiFTKkL52KSdrY\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/4795dda924cf49a6bf29f2435c268304\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzljNWRjYmQzNTVmZjRkYjI4NWIxNmU4YWY0MzU4YWJjEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"3202\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/5480617662433312349/screens/54b51f63b6ad4bd981e6d487e99781c5\",\"title\":\"摄影风格 · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/496698ab76974b769fec740a66760867\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1VDVzJXyWvgNlRAfLL-lcXVgyBuczFx2o3DVRaZQxcTfdE_nokUPgc1xTLx_VUJJ3iHIayqtLq_C_-GH82A6qv9vpm9SLeStkp3_C035fG2vbNLV-uSeQYtGPZzNIfJXAWUx8i9WclLOyBt5VDSZ7wvCBqiR7Vio5WoeasJjUlLESBWwdibP-AnSXhmtvO0WiOxmgrCqe8JX-eet8MmntkPpD4_oqE7r_jIYsKWy0Wupe21qPUe9wFCxEg\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/840b3b6e46404b248b210014d3155de8\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzIwMzRjMTI2MTNiNzQ4NmY4ZjdlM2M4OGYyMDJiZWRiEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"3836\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/5480617662433312349/screens/08561172a36f4380ad0ba36e1fc07fb8\",\"title\":\"专业人像创作 · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/b1714a8045174a8d8d570a8ffa3d0acd\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1X4k0WD8IjpexzRwtZEoA8q9Aod-1aIN9EK9lSkMOk19Ax1BfsNMzPxJJd8NFWf6R-dHuHCkAuuGzgh8JBDdLZXQVBV6muL42ZbCuCuZ3aJTWmetLnDmaIfCJPxnYLPX0UQ6GVkPhltqwhOqF4ta9MBWRfX38QAcVkh6Y8LCaZaAciUbtfMGkraiC2QZw5tgqrAvNk6baLAICs4KHP-85G3f2Lqu-NMP9lvMn_Y3W-MwGJdtw0DFlvI32U\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/b855ff20e83e44898efaec484850e9c4\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2NlODhhZDQwMDFlMjQ4NjJhZTRmZjg1ZTQxMDBkNzg0EgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2048\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/5480617662433312349/screens/a589295fc07c47ccbc2972bff4a843d5\",\"title\":\"身份与版本 · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/c53ce343dd67425b89787b42e71b87b5\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1WQWthhi3LoFJhMfLh2T96Zj2Mnq8HAE0HI-IdVYzsE1yAo7kE23Sf_b9AVOMmtFNCqQV7R2JIzbvcwpsl3rFmxbeaW58yI1yyDluwXFjxB5ixM0Ud1JNV-QaNTbmh0FQL0aMUiqyUlEE5zEO2OZ7oEUKKWPhrARTu9Fr3Qd6v1sHlk9B7gDYFT_-cI25m9TTB6RVVCIH8OnvTlkTk5vVPG7eegpTbzMPFoLC2UCUBLL6_-6T2r8WccFPw\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/f5c1e351994b4d49a4ff40d6772f9f99\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2E3NDZlMTIyOTIxOTRiNzliNDk4MjM2OThlZjI4YjczEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2764\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/5480617662433312349/screens/3061e41b0bd64f57a9ec4717c7287dcc\",\"title\":\"摄影技能 · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/efad4eabf00245868846ed8d96194595\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1ULxg4J3XppcJS_GvjS-mMKO7dqx4zUps7NWAAGaIYAFvgh2CB7ZLHaSUTsPw1UoLHNtA0YAOWBSFKR9Ze3Y9BQx-GnVK-KNq7Tw6iP6UO4P509-tZu8QaY5rPtvUdzWkDwXkPirus4WaCXC0T3dofAqKdl0Fm6clQjIRKL17dnFL1HxYufciMhejnO3ff_xkNWw4Tj7fTJBETH62D1osttH-MO1UEvFHKw_JMTctQAE7URDwBF6Cf6LJc\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/3a1debb03e45459886ec788d8c39776a\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzk5OTU4ZGJmM2E2NjQ4ZDRhMjViY2I0MzFkOGU4N2M4EgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2826\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/5480617662433312349/screens/0703d900dd674efd9f147512a28321ce\",\"title\":\"归档与恢复 · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/d8c2460cd21f4d3fb4da4ad55165ea30\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1VLF0ItAgav-v9eh80E6z0EBpxZbJj5cDddVZBsUoUEDz7gBGO4IO9gDN_CIbddBS79zRrPFS-LcS-RWU4gD0xZzgS_cqRrwpONKrGDdPVAL92owzPgRVWgqeMGV8s5YQYa4ErcYd40G8YFVIwQXhv6BIEubmzY9vUhzNn5LinMyIlMmv6keCLPmNIHaI1ch9SwjW4Ne6pVJ9Konp5gwoYdZazgEN1srBPfaENBmB4xSlqlcXshyvIawHg\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/a5d262474e2945c4a90500c87bb45480\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzMyNGI2ZGU4MTcwZDQwNTE4YmQ1ODFkNzcwNGQ5NDQzEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2882\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/5480617662433312349/screens/3682f083579e4b7fb9c309739c168e71\",\"title\":\"快捷生成 · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/9a8d98a41cc5444f8feef9c3f14c360b\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1VtcnVboqG90rdCEgCoJVFa9p5v38SjjZxgQRGYsUceNfMjr019_2oXmfHHSOV4lLcO3vlX2myNK0BqODTjy-w8Ftr01y5vcahswmA_VlrwewlnBCcxeWvD3toVKt7CU5qfjfROiZwGI3yt0Z6JJcJniT1VMgCr9pvjZP1kJyDci2viClO3bNnQ7Bj882RtUELNJ2oNGKowel8rczI2YtJKCCX4UyQgP_lpBLDTyVs1GNi7b5pZnQ6CYNI\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/05efa932c070422582b7f1b27a6b7054\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzJmMDViYjk4NDU2OTRkMjBiODllOWRiYmJhODY5ZTE5EgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2048\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/5480617662433312349/screens/cab1dfbb2b8c44dd96f0cb172214d231\",\"title\":\"私有登录 · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/c975ecd4f4c44dc681366f369274eade\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1WUEgKLwrrjwUbYCW4-I5YTG6sS0RZipFN02DRyqMOOfF4Qn21cZNvKLoisyEg7IjTXB5aXV74BuWo8ESxhvZI0_KznlMmbSMFV0wzUf6XzHLm2amzj9x-8BUQQHytJ-yhd8yFbUxxiwfLuYgg3mbVpHZ9KdbQWl3B9_tXpgnbOeU3z4aSWhHPqQ1Zm40UQKr5WswuCp55KL6ocU76M-3r7mniq7PAn82haSPiFQ_ofizvB3WijRay5UlA\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/223d00e6c221496384218cea08323617\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2RlYzI5YjQwNTQ3ZjQ4OTY4MzVjMjcxMTA4N2IyZmZiEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2048\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/5480617662433312349/screens/7c47c98372724056bcaaf4ad07d88644\",\"title\":\"拍摄项目 · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/80fce490bf0a45c78e2518dd2be55030\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1WiNnWh1G7oRcsS_DpGzVlI7Ybu00JF9IhHO3rauGDx_K5rti07WoO_pFznJmlyS4dKSh0EkLPIHy_Ofu8RBb3W1H3HLLKNaITff10ss5kdjXCCIzcNWDvq2PG181bxEfV0Jiqr-eeiQuuqvLVApocUbti3GZGF5mEX8d5aGqhDzb5fd_qPY0fWNzDHDh_vt0Q65LR9xF8dRDkAGsTilScI9_XvkyS8zOLx6BH0Vn9jFE93eRJgcf84l_M\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/13029fa50d3e4b1ab67798c1151b6884\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzc2YjEzYTY4NjNhYjQ4ZTBiOGUyNzVhNGE0MmI4OTJhEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2344\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/5480617662433312349/screens/659a17590ce14e8d872f9ab02b9260f2\",\"title\":\"新建风格 · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/bd158a04340f4e899da91aa66b26b79b\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1W0B6QO2iNYggMyVtRieNXje86ZoajZBcOKHgblmbVcfhgTAjEm4Ij2peETMesmUJEVy7n0RKEuBwgQUkJwG7dGbkKkLiq4tV05YefKZI7oi-9uCkzVnqpMsFxdSdetfdMiWoCJZurcYCXaE2TOd-UVsFvT8BvEpF3a3CRx7MzKkamKQwMhe1bIbYeh0H0sb7ulKNHHOIsiarngBGEjeD5e6-vjg3adRcPo9PoasZyUudinT2jU99o0HAA\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/1ca149cf386943b0bd7a6a025792b4ce\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzBlZjJmYWU1ZTRiZTQwNzZhNDNkMWU5YzExNGVlMzM1EgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"3600\",\"deviceType\":\"DESKTOP\"},{\"name\":\"projects/5480617662433312349/screens/40c320a8df694dbe89bac92317ff9a2a\",\"title\":\"作品库 · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/5a9e835bfc9b4cdf8eb6c8a021338ef6\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1WKUnMhWlDgy6n8aX3nwfxGh63IkvNfvHqT76szkgeCgLHnBs1UobLY423rbFxczKHL6uRHN-j7nOZwfN2J8OCJRUWWEoj-ukntw1kzlZMSyS9O2DW-1qO0mo8kUWcw9XF5QkQT6ZT7Ga_dBV3pW12qorHPJsgpnpbmprV_-SCsnfUEpt6HRvaymPmu0Irl9h6TDmhmpRkGb8xj6HrQ-mOom77WfC5-R21Yil6f_FhrBrHB-FQvc86ZfCk\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/2b130df3c8d44595a13c43d1c42cdc30\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2NiZDQyMThiOThiYjQ0YjA5OGVlYzBjZjczN2Y0NDRhEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"5564\",\"deviceType\":\"DESKTOP\"}]}"
+    }
+  ],
+  "structuredContent": {
+    "screens": [
+      {
+        "deviceType": "DESKTOP",
+        "height": "4142",
+        "htmlCode": {
+          "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzJjMGE3ZGUxZmFhMzRjMTNhZmFhNTAxZGUxOTY0MDg0EgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+          "mimeType": "text/html",
+          "name": "projects/5480617662433312349/files/c49789e61954465c8186aac91db322a9"
+        },
+        "name": "projects/5480617662433312349/screens/9b493a6495234f14a390752e6f20a354",
+        "screenshot": {
+          "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1VjPVXcZphZYGlShNohnb3fpgCo2T0D6_UhBSgxRPoRLZaLc284NzsV5y5rzxHsdcLam5Os84xz4ODEGul5U3zhNkwr0tdkrVfdlxQl6dy4eSW85I-lLgbs9aLk9klA82w7V-X3mVay4wX7twX-wf-xSFBsNI_JYtbRDA3kYptdxN9zWBVVgZK2dnllPOfl7Z_kR3-91ZdXOqI9WUFVhQGPr8gceBcUzZvIhSKYm69EJ6nr5IjBtOV9UNs",
+          "name": "projects/5480617662433312349/files/7ab0255e8001480e8901483cf5e9db2a"
+        },
+        "title": "摄影技能 · 版本与试用记录",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "3968",
+        "htmlCode": {
+          "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzg3YmU5YTcwZGFhMTRkMDNhMGYwOTRiNTQxZWRjZTZjEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+          "mimeType": "text/html",
+          "name": "projects/5480617662433312349/files/48bd520308b646d99bafa6ef16323fed"
+        },
+        "name": "projects/5480617662433312349/screens/ab02899a6eaf4a17b711234266a9b50c",
+        "screenshot": {
+          "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1VZUHwTRx2QxfQvBWsr9lye4q2_Lxw0qw7UDs87FlCm2moNjUfM3vaSPnV_eB48wG3ztfAqpmcL3mdolmqFaTD8jUPIw6TDpejItZO8_qfEb8e65j1FO-C89NbxlA_EWNHyBRqznZmenC2jcGMRTeeFp4-5BpwiT-L7bFim0xcWsMRNpf69knLkRXet7mnUSK4k7SYCOhtKndPe4TzHDLdSe0SQ2qc2S3VvwOHmTftIvATlifjRd5BGoMo",
+          "name": "projects/5480617662433312349/files/dd8432aa298a49d28688d9ad0240d374"
+        },
+        "title": "摄影技能 · 创建与提炼草稿",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "2304",
+        "htmlCode": {
+          "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2EzNTc4YWFjM2IxNzQ3ZThiOWJkMTljZmMyNWFmYjQ3EgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+          "mimeType": "text/html",
+          "name": "projects/5480617662433312349/files/5b35140e50d646c4afd4227cc1d0fa26"
+        },
+        "name": "projects/5480617662433312349/screens/f01f4db924ff4517bf2365df93490a3a",
+        "screenshot": {
+          "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1V1X0IXUiqEE23_ekCXKwYNrixClrbui9rCdG-PvoQL256D2T35OlweklFE2J8sA4MpCakocOCcK6q7uzqX6IGBrsoZAe59Lx3a6twhjU89ybWLuEi-uJZwp5AFj2HOheEkTQdfEOdlW84of_igcpQAONx5Yn6HgPbpokJkdYNVqrQW2uYw3qNkZYyhLfTgC02PG9XbLBUL9x-1Z9OLn40Dq9BePlloCeLM7YjgcNUuB0m6gQUnp4J9VUo",
+          "name": "projects/5480617662433312349/files/71f87bd60f6c4435934250d91ea3536b"
+        },
+        "title": "项目详情 · 桌面端默认状态",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "2140",
+        "htmlCode": {
+          "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzgyZDY5NGUyNTA3YjQyZTNiNDQwZTgxNDQ0MDkzNWE4EgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+          "mimeType": "text/html",
+          "name": "projects/5480617662433312349/files/191f1a67f8224c83b05b9b6009d5bc2b"
+        },
+        "name": "projects/5480617662433312349/screens/268919fe72d74cf8aae38e24776ba295",
+        "screenshot": {
+          "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1WbY9SOHljVNITrR15ialW8FdC9ZdMhgCV8M7k-qO2H6AEPP1iWN_vXAmx3hzVZKvwLV7uyrdzcsKWxQfiP8kk_jZEt8R61AlCS66OhRU_380Eaoo75KffpT-GSwbHx8SYB1thuJ3I8XwmsaSbZkoXnreTxstJnyje1a1lNn0abnGzHUbMm_wrVnyiv2qjJBimgu_8qLdWsXalKvJQgMD787wgbFUcex5Lm1zzEUx2f-cHfJDSE1rjAvA",
+          "name": "projects/5480617662433312349/files/5b98b77167e145669bef3a47d5e3bf8f"
+        },
+        "title": "人物列表 · 桌面端默认状态",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "3126",
+        "htmlCode": {
+          "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzY4ZmQ5ODE4NDMyZDQ2MjA4ZTZjMGNkZDBmNzg4NWRiEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+          "mimeType": "text/html",
+          "name": "projects/5480617662433312349/files/52ff53f9b02643bbaab36fc67db65dff"
+        },
+        "name": "projects/5480617662433312349/screens/cb0ecd39f42f4980ba24c8e866e16517",
+        "screenshot": {
+          "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1WN1UfyBkC3Pl7Y_px4izyKeF5cfBYaqgWLPnY5v97ZiDRykl9y4hXNmSD9r5UfxaTV_4719af7F8_UqGFaictiAxe4VJD9mwbPud6iq1QMwss5gvZSDHbdiLmVL0Prk1UmGRLElNWyd5gCeL2DQPcgHcFYfYUpSCpigpAz28xa8-rZSOgz0qb7uIcYQUYlGWsZw6nj5YYxOoT4ygr1d-FqHDdfnpuTnQILfCQVxhPdw1myQZvilyV_IMA",
+          "name": "projects/5480617662433312349/files/d17f152d49424f72a34f25569608b3d8"
+        },
+        "title": "创建虚构人物 · 桌面端默认状态",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "3872",
+        "htmlCode": {
+          "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2ZjMmI4NzhiYWQwYjQ2OGVhZmYxNWIxZTdjYjA5MjRhEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+          "mimeType": "text/html",
+          "name": "projects/5480617662433312349/files/d18240c4c8194e93a4f36ccb53f7512b"
+        },
+        "name": "projects/5480617662433312349/screens/ada9d19e96674a4ea28edd0d47d970d3",
+        "screenshot": {
+          "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1XOAQ5N6GnPODa-5-bliwZl0xMPNVe0XuXFpjdkyPYw0-7YR9eioRs06h_e0APTRKqDKPM2y-PAUG9L9Ljnh0nCiXkfuFbraUO83RF7_Zs-OYEUuUmn6L0i_aYYjCFR5QKyxhOz9J1D47p-mLyTYuT_6mSJLB3adVEtOV_p2bxWoPVahPhiR_rqyIwv7LvWoUu8hDQohMC8fBokpi_g8re6tsrz5mwjb-bKT9kxsYBhqGztqiFJYfERXg",
+          "name": "projects/5480617662433312349/files/764c45564efc47aa9828cc28e464a0a9"
+        },
+        "title": "档案编辑与组合 · 桌面端默认状态",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "3202",
+        "htmlCode": {
+          "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzljNWRjYmQzNTVmZjRkYjI4NWIxNmU4YWY0MzU4YWJjEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+          "mimeType": "text/html",
+          "name": "projects/5480617662433312349/files/4795dda924cf49a6bf29f2435c268304"
+        },
+        "name": "projects/5480617662433312349/screens/bb732e50f02448f5a2e341dcd71cd602",
+        "screenshot": {
+          "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1U2AjrYxND9fQsgNeUob68W3fxwV8o_n1OfZm8JrIyllHlgeVbaeb4Wg7qg7RXMj8cv1HrnJNDeDrgJ9LS5crwN5s41dN5Z-yEh_S0k_RCAXFaWpPHjuYJHXjJsO2qzMHBGvBo0MsgS-Pp1qY9Zx714eYcJUHAzlVvbA0ZQKcKMLl_-I8-_-AE_--9taSkS6Kxg0CEugHt8Ja1R8tJR8zESvyOcaDogM0G17t1iIseRTIiFTKkL52KSdrY",
+          "name": "projects/5480617662433312349/files/7aeabb74e28b4ab8bc0705644ab582d6"
+        },
+        "title": "作品来源与复用 · 桌面端默认状态",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "3836",
+        "htmlCode": {
+          "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzIwMzRjMTI2MTNiNzQ4NmY4ZjdlM2M4OGYyMDJiZWRiEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+          "mimeType": "text/html",
+          "name": "projects/5480617662433312349/files/840b3b6e46404b248b210014d3155de8"
+        },
+        "name": "projects/5480617662433312349/screens/54b51f63b6ad4bd981e6d487e99781c5",
+        "screenshot": {
+          "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1VDVzJXyWvgNlRAfLL-lcXVgyBuczFx2o3DVRaZQxcTfdE_nokUPgc1xTLx_VUJJ3iHIayqtLq_C_-GH82A6qv9vpm9SLeStkp3_C035fG2vbNLV-uSeQYtGPZzNIfJXAWUx8i9WclLOyBt5VDSZ7wvCBqiR7Vio5WoeasJjUlLESBWwdibP-AnSXhmtvO0WiOxmgrCqe8JX-eet8MmntkPpD4_oqE7r_jIYsKWy0Wupe21qPUe9wFCxEg",
+          "name": "projects/5480617662433312349/files/496698ab76974b769fec740a66760867"
+        },
+        "title": "摄影风格 · 桌面端默认状态",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "2048",
+        "htmlCode": {
+          "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2NlODhhZDQwMDFlMjQ4NjJhZTRmZjg1ZTQxMDBkNzg0EgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+          "mimeType": "text/html",
+          "name": "projects/5480617662433312349/files/b855ff20e83e44898efaec484850e9c4"
+        },
+        "name": "projects/5480617662433312349/screens/08561172a36f4380ad0ba36e1fc07fb8",
+        "screenshot": {
+          "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1X4k0WD8IjpexzRwtZEoA8q9Aod-1aIN9EK9lSkMOk19Ax1BfsNMzPxJJd8NFWf6R-dHuHCkAuuGzgh8JBDdLZXQVBV6muL42ZbCuCuZ3aJTWmetLnDmaIfCJPxnYLPX0UQ6GVkPhltqwhOqF4ta9MBWRfX38QAcVkh6Y8LCaZaAciUbtfMGkraiC2QZw5tgqrAvNk6baLAICs4KHP-85G3f2Lqu-NMP9lvMn_Y3W-MwGJdtw0DFlvI32U",
+          "name": "projects/5480617662433312349/files/b1714a8045174a8d8d570a8ffa3d0acd"
+        },
+        "title": "专业人像创作 · 桌面端默认状态",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "2764",
+        "htmlCode": {
+          "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2E3NDZlMTIyOTIxOTRiNzliNDk4MjM2OThlZjI4YjczEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+          "mimeType": "text/html",
+          "name": "projects/5480617662433312349/files/f5c1e351994b4d49a4ff40d6772f9f99"
+        },
+        "name": "projects/5480617662433312349/screens/a589295fc07c47ccbc2972bff4a843d5",
+        "screenshot": {
+          "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1WQWthhi3LoFJhMfLh2T96Zj2Mnq8HAE0HI-IdVYzsE1yAo7kE23Sf_b9AVOMmtFNCqQV7R2JIzbvcwpsl3rFmxbeaW58yI1yyDluwXFjxB5ixM0Ud1JNV-QaNTbmh0FQL0aMUiqyUlEE5zEO2OZ7oEUKKWPhrARTu9Fr3Qd6v1sHlk9B7gDYFT_-cI25m9TTB6RVVCIH8OnvTlkTk5vVPG7eegpTbzMPFoLC2UCUBLL6_-6T2r8WccFPw",
+          "name": "projects/5480617662433312349/files/c53ce343dd67425b89787b42e71b87b5"
+        },
+        "title": "身份与版本 · 桌面端默认状态",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "2826",
+        "htmlCode": {
+          "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzk5OTU4ZGJmM2E2NjQ4ZDRhMjViY2I0MzFkOGU4N2M4EgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+          "mimeType": "text/html",
+          "name": "projects/5480617662433312349/files/3a1debb03e45459886ec788d8c39776a"
+        },
+        "name": "projects/5480617662433312349/screens/3061e41b0bd64f57a9ec4717c7287dcc",
+        "screenshot": {
+          "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1ULxg4J3XppcJS_GvjS-mMKO7dqx4zUps7NWAAGaIYAFvgh2CB7ZLHaSUTsPw1UoLHNtA0YAOWBSFKR9Ze3Y9BQx-GnVK-KNq7Tw6iP6UO4P509-tZu8QaY5rPtvUdzWkDwXkPirus4WaCXC0T3dofAqKdl0Fm6clQjIRKL17dnFL1HxYufciMhejnO3ff_xkNWw4Tj7fTJBETH62D1osttH-MO1UEvFHKw_JMTctQAE7URDwBF6Cf6LJc",
+          "name": "projects/5480617662433312349/files/efad4eabf00245868846ed8d96194595"
+        },
+        "title": "摄影技能 · 桌面端默认状态",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "2882",
+        "htmlCode": {
+          "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzMyNGI2ZGU4MTcwZDQwNTE4YmQ1ODFkNzcwNGQ5NDQzEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+          "mimeType": "text/html",
+          "name": "projects/5480617662433312349/files/a5d262474e2945c4a90500c87bb45480"
+        },
+        "name": "projects/5480617662433312349/screens/0703d900dd674efd9f147512a28321ce",
+        "screenshot": {
+          "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1VLF0ItAgav-v9eh80E6z0EBpxZbJj5cDddVZBsUoUEDz7gBGO4IO9gDN_CIbddBS79zRrPFS-LcS-RWU4gD0xZzgS_cqRrwpONKrGDdPVAL92owzPgRVWgqeMGV8s5YQYa4ErcYd40G8YFVIwQXhv6BIEubmzY9vUhzNn5LinMyIlMmv6keCLPmNIHaI1ch9SwjW4Ne6pVJ9Konp5gwoYdZazgEN1srBPfaENBmB4xSlqlcXshyvIawHg",
+          "name": "projects/5480617662433312349/files/d8c2460cd21f4d3fb4da4ad55165ea30"
+        },
+        "title": "归档与恢复 · 桌面端默认状态",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "2048",
+        "htmlCode": {
+          "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzJmMDViYjk4NDU2OTRkMjBiODllOWRiYmJhODY5ZTE5EgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+          "mimeType": "text/html",
+          "name": "projects/5480617662433312349/files/05efa932c070422582b7f1b27a6b7054"
+        },
+        "name": "projects/5480617662433312349/screens/3682f083579e4b7fb9c309739c168e71",
+        "screenshot": {
+          "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1VtcnVboqG90rdCEgCoJVFa9p5v38SjjZxgQRGYsUceNfMjr019_2oXmfHHSOV4lLcO3vlX2myNK0BqODTjy-w8Ftr01y5vcahswmA_VlrwewlnBCcxeWvD3toVKt7CU5qfjfROiZwGI3yt0Z6JJcJniT1VMgCr9pvjZP1kJyDci2viClO3bNnQ7Bj882RtUELNJ2oNGKowel8rczI2YtJKCCX4UyQgP_lpBLDTyVs1GNi7b5pZnQ6CYNI",
+          "name": "projects/5480617662433312349/files/9a8d98a41cc5444f8feef9c3f14c360b"
+        },
+        "title": "快捷生成 · 桌面端默认状态",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "2048",
+        "htmlCode": {
+          "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2RlYzI5YjQwNTQ3ZjQ4OTY4MzVjMjcxMTA4N2IyZmZiEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+          "mimeType": "text/html",
+          "name": "projects/5480617662433312349/files/223d00e6c221496384218cea08323617"
+        },
+        "name": "projects/5480617662433312349/screens/cab1dfbb2b8c44dd96f0cb172214d231",
+        "screenshot": {
+          "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1WUEgKLwrrjwUbYCW4-I5YTG6sS0RZipFN02DRyqMOOfF4Qn21cZNvKLoisyEg7IjTXB5aXV74BuWo8ESxhvZI0_KznlMmbSMFV0wzUf6XzHLm2amzj9x-8BUQQHytJ-yhd8yFbUxxiwfLuYgg3mbVpHZ9KdbQWl3B9_tXpgnbOeU3z4aSWhHPqQ1Zm40UQKr5WswuCp55KL6ocU76M-3r7mniq7PAn82haSPiFQ_ofizvB3WijRay5UlA",
+          "name": "projects/5480617662433312349/files/c975ecd4f4c44dc681366f369274eade"
+        },
+        "title": "私有登录 · 桌面端默认状态",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "2344",
+        "htmlCode": {
+          "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzc2YjEzYTY4NjNhYjQ4ZTBiOGUyNzVhNGE0MmI4OTJhEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+          "mimeType": "text/html",
+          "name": "projects/5480617662433312349/files/13029fa50d3e4b1ab67798c1151b6884"
+        },
+        "name": "projects/5480617662433312349/screens/7c47c98372724056bcaaf4ad07d88644",
+        "screenshot": {
+          "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1WiNnWh1G7oRcsS_DpGzVlI7Ybu00JF9IhHO3rauGDx_K5rti07WoO_pFznJmlyS4dKSh0EkLPIHy_Ofu8RBb3W1H3HLLKNaITff10ss5kdjXCCIzcNWDvq2PG181bxEfV0Jiqr-eeiQuuqvLVApocUbti3GZGF5mEX8d5aGqhDzb5fd_qPY0fWNzDHDh_vt0Q65LR9xF8dRDkAGsTilScI9_XvkyS8zOLx6BH0Vn9jFE93eRJgcf84l_M",
+          "name": "projects/5480617662433312349/files/80fce490bf0a45c78e2518dd2be55030"
+        },
+        "title": "拍摄项目 · 桌面端默认状态",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "3600",
+        "htmlCode": {
+          "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzBlZjJmYWU1ZTRiZTQwNzZhNDNkMWU5YzExNGVlMzM1EgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+          "mimeType": "text/html",
+          "name": "projects/5480617662433312349/files/1ca149cf386943b0bd7a6a025792b4ce"
+        },
+        "name": "projects/5480617662433312349/screens/659a17590ce14e8d872f9ab02b9260f2",
+        "screenshot": {
+          "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1W0B6QO2iNYggMyVtRieNXje86ZoajZBcOKHgblmbVcfhgTAjEm4Ij2peETMesmUJEVy7n0RKEuBwgQUkJwG7dGbkKkLiq4tV05YefKZI7oi-9uCkzVnqpMsFxdSdetfdMiWoCJZurcYCXaE2TOd-UVsFvT8BvEpF3a3CRx7MzKkamKQwMhe1bIbYeh0H0sb7ulKNHHOIsiarngBGEjeD5e6-vjg3adRcPo9PoasZyUudinT2jU99o0HAA",
+          "name": "projects/5480617662433312349/files/bd158a04340f4e899da91aa66b26b79b"
+        },
+        "title": "新建风格 · 桌面端默认状态",
+        "width": "2560"
+      },
+      {
+        "deviceType": "DESKTOP",
+        "height": "5564",
+        "htmlCode": {
+          "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2NiZDQyMThiOThiYjQ0YjA5OGVlYzBjZjczN2Y0NDRhEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+          "mimeType": "text/html",
+          "name": "projects/5480617662433312349/files/2b130df3c8d44595a13c43d1c42cdc30"
+        },
+        "name": "projects/5480617662433312349/screens/40c320a8df694dbe89bac92317ff9a2a",
+        "screenshot": {
+          "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1WKUnMhWlDgy6n8aX3nwfxGh63IkvNfvHqT76szkgeCgLHnBs1UobLY423rbFxczKHL6uRHN-j7nOZwfN2J8OCJRUWWEoj-ukntw1kzlZMSyS9O2DW-1qO0mo8kUWcw9XF5QkQT6ZT7Ga_dBV3pW12qorHPJsgpnpbmprV_-SCsnfUEpt6HRvaymPmu0Irl9h6TDmhmpRkGb8xj6HrQ-mOom77WfC5-R21Yil6f_FhrBrHB-FQvc86ZfCk",
+          "name": "projects/5480617662433312349/files/5a9e835bfc9b4cdf8eb6c8a021338ef6"
+        },
+        "title": "作品库 · 桌面端默认状态",
+        "width": "2560"
+      }
+    ]
+  }
+}

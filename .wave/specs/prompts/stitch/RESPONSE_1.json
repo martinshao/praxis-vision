@@ -1,0 +1,72 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"projectId\":\"5480617662433312349\",\"sessionId\":\"3798426541593076126\",\"outputComponents\":[{\"design\":{\"screens\":[{\"screenshot\":{\"name\":\"projects/5480617662433312349/files/7932080dd3754dfc8195c053e7036e9c\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1UQwAi0JF9j_yc4jCrJu0ihuCDh0paMOel2o_yq23eyoMcjkS-BlhLRo718Qd04PiTOLM0nAeImY6W8noglS_KiSTLN2lEd1KYvfjg0iTzNluOh77sTNPaVfAeQASsn699qHzMymGnLncO2cgcSIXjX5J1BAWCLB3oEsZxniEjtZjVhEknPqgp63JJCux4FqAf-uOIe2OfPN1iEBwivn5E3QZ7ywOjRh5D2crM8MfMQNBU8HUNt1IEL7ec\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/ebf3298a4b28485fb8cbc6f36b676c5a\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2MwODRjZjkyYjg2YzQyZjY5OWZhMGIwMzdlODIxY2MwEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"id\":\"3ccc687ddbd34d41a9ac162a0e1c0d14\",\"generatedBy\":\"figaro_agent\",\"width\":\"2560\",\"height\":\"2048\",\"title\":\"Prompt 库 · 桌面端默认状态\",\"prompt\":\"设计 Praxis Vision 私有虚构人像摄影工作台的「Prompt 库」页面（路由 /prompts）。\\n桌面端沉浸式深色界面，继承已确认设计系统（背景 #18181B，面板/卡片 #27272A，主文字 #FAFAFA，次要文字 #D4D4D8，边框 #3F3F46/#27272A，强调色中性白与微灰，8px圆角基准，44px可触控目标）。\\n\\n【全局与侧栏导航】\\n左侧常驻侧栏导航（宽度224px / w-56）：\\n- 品牌标识：Praxis Vision / 私有虚构人像工作台\\n- 常驻高亮快捷入口：“快捷生成”按钮\\n- 主导航菜单（6项，中文标准）：\\n  1. 项目\\n  2. 人物\\n  3. Prompt（当前激活状态，高亮背景与左侧或前缀指示）\\n  4. 摄影技能\\n  5. 摄影风格\\n  6. 作品\\n- 底部次级独立入口：“归档”次级入口，平视稳重，不带调试标签。\\n\\n【顶部与页头区】\\n- 顶部路径与状态面包屑：Prompt 库 / 全部收藏\\n- 页面主标题：“Prompt 库”\\n- 副标题说明：“通过关键词、原文特征或本人试用结果找回收藏。仅 AI 虚构人像支持内置生成，非人像条目支持收藏与文本复用。”\\n- 页头操作区：\\n  - 关键词搜索框：“搜索标题、标签或原文关键词...”（占位与键盘可达）\\n  - 主动作按钮：“收集 Prompt”（点击目标前往 /prompts/new）\\n\\n【Filter Chips 与控制栏】\\n- 筛选维度：\\n  - 题材过滤：全部题材、虚构人像、赛博都市、古典静物、光影构图、概念环境\\n  - 来源平台：全部来源、本地编写、外部社区记录、文献归档\\n  - 已知模型：全部模型、[模型：未知]、SDXL-Synthetic、FLUX-Studio\\n  - 本人试用结果：全部、已有本人试用结果、本版本未试用\\n  - 状态与标签：全部状态、已收藏、仅看归档\\n- 视图切换与工具：\\n  - 视图切换按键：卡片网格 / 紧凑列表（当前选中卡片视图）\\n  - 明确“清除所有筛选”按钮（当筛选无匹配或重置时）\\n\\n【条目卡片主区域】\\n展示 6 块标准结构卡片（网格布局 3 列），涵盖不同业务规范场景：\\n卡片 1（虚构人像 · 有当前版本本人试用结果）：\\n- 封面区：高质感深色线框占位图，清晰标注 `[本人生成结果占位图]`，右下角带有 `[版本]`\\n- 题材标签：“虚构人像”徽章\\n- 标题：“[名称] 冷光高调单灯肖像 Prompt”\\n- 模型标注：“[模型：未知]”\\n- 原文摘要：“[原文] (studio fictional portrait:1.2), neutral expression, soft rim lighting, subtle eye-level focus, monochrome...”\\n- 版本与元信息：当前版本 `[版本]` · 保存时间 `[保存时间]`\\n- 操作按钮：“打开详情”、“复制文本”、“内置生成”（虚构人像允许生成）\\n\\n卡片 2（虚构人像 · 本版本未试用）：\\n- 封面区：深色占位，明确居中提示文字：“本版本未试用”（无图状态）\\n- 题材标签：“虚构人像”\\n- 标题：“[名称] 伦勃朗侧逆光质感草稿”\\n- 模型标注：“[模型：未知]”\\n- 原文摘要：“[原文] rembrandt lighting, 45-degree key light, chiaroscuro ratio, structured cheekbones, synthetic archetype...”\\n- 版本与元信息：当前版本 `[版本]` · 保存时间 `[保存时间]`\\n- 操作按钮：“打开详情”、“复制文本”、“内置生成”\\n\\n卡片 3（虚构人像 · 封面来自旧版）：\\n- 封面区：深色线框占位图 `[本人生成结果占位图]`，醒目标记角标：“来自旧版 [版本] · 旧试用评价不作为新版依据”\\n- 题材标签：“虚构人像”\\n- 标题：“[名称] 胶片银盐微粒半身构图”\\n- 模型标注：“[模型：未知]”\\n- 原文摘要：“[原文] medium shot, vintage gelatin silver emulsion texture, muted contrast, subtle grain...”\\n- 版本与元信息：当前版本 `[版本]` · 保存时间 `[保存时间]`\\n- 操作按钮：“打开详情”、“复制文本”、“内置生成”\\n\\n卡片 4（非人像题材 · 环境概念 · 禁用内置生成）：\\n- 封面区：深色占位图 `[本人生成结果占位图]`\\n- 题材标签：“环境概念”\\n- 标题：“[名称] 极简几何混凝土空间光影”\\n- 模型标注：“[模型：未知]”\\n- 原文摘要：“[原文] brutalist interior space, geometric concrete shadows, harsh morning sunbeam, quiet architectural atmosphere...”\\n- 版本与元信息：当前版本 `[版本]` · 保存时间 `[保存时间]`\\n- 操作与禁用提示：“打开详情”、“复制文本”；右侧内置生成按钮呈 disabled 灰度状态，悬停/伴随提示：“非人像仅支持收藏与文本复用，内置生成仅限 AI 虚构人像”\\n\\n卡片 5（非人像题材 · 静物光影 · 未试用）：\\n- 封面区：居中提示：“本版本未试用”\\n- 题材标签：“古典静物”\\n- 标题：“[名称] 柔光暗调玻璃器皿折射”\\n- 模型标注：“[模型：未知]”\\n- 原文摘要：“[原文] still life glassware reflection, soft directional lighting, dark gradient velvet surface...”\\n- 版本与元信息：当前版本 `[版本]` · 保存时间 `[保存时间]`\\n- 操作按钮：“打开详情”、“复制文本”；“内置生成”（禁用状态，标注“仅人像支持生成”）\\n\\n卡片 6（已归档条目）：\\n- 状态标识：“已归档”标签\\n- 封面区：深色降对比占位图 `[本人生成结果占位图]`\\n- 题材标签：“虚构人像”\\n- 标题：“[名称] 实验性冷暖双色温面容测试”\\n- 模型标注：“[模型：未知]”\\n- 原文摘要：“[原文] experimental dual-temperature rim light, cyber synthetic bone structure, high neck garment...”\\n- 版本与元信息：当前版本 `[版本]` · 保存时间 `[保存时间]`\\n- 操作按钮：“恢复到库”、“查看历史快照”（已归档条目只支持恢复与查看历史，禁用生成）\\n\\n【底部状态与合规说明】\\n- 分页控制：显示第 1 页，翻页控件，上一页、下一页\\n- 底部安全与合规声明：“仅个人私有沙箱 · 仅 AI 虚构人像支持内置生成 · 外部示例仅记录链接不抓取/缓存 · 归档条目不设永久删除随时可恢复”\\n\\n【严谨合规要求】\\n- 遵循单一默认桌面画布，不添加状态演示工具栏或互斥状态切换器；\\n- 按钮采用自然动词，绝对不出现“（建议）”或“(建议)”；\\n- 绝无真人上传、公开分享、模型训练或永久删除；\\n- 纯占位符：[名称]、[版本]、[保存时间]、[原文]、[模型：未知]，不编造具体相机光圈假数据或伪造项目数量。\",\"name\":\"projects/5480617662433312349/screens/3ccc687ddbd34d41a9ac162a0e1c0d14\",\"theme\":{\"colorMode\":\"DARK\",\"roundness\":\"ROUND_EIGHT\",\"customColor\":\"#FAFAFA\",\"colorVariant\":\"NEUTRAL\",\"overridePrimaryColor\":\"#FAFAFA\",\"overrideNeutralColor\":\"#18181B\"},\"deviceType\":\"DESKTOP\",\"screenType\":\"DESIGN\",\"screenMetadata\":{\"agentType\":\"PRO_AGENT\",\"status\":\"COMPLETE\"},\"designSystem\":{\"name\":\"assets/1178394102340625614\",\"designSystem\":{\"displayName\":\"Praxis Vision · Quiet Portrait Studio\",\"theme\":{\"colorMode\":\"DARK\",\"roundness\":\"ROUND_EIGHT\",\"customColor\":\"#FAFAFA\",\"designMd\":\"图片为中心的私有 AI 虚构人像摄影工作台。背景 #18181B，面板 #27272A，主要文字 #FAFAFA，次要文字 #D4D4D8；浅色主按钮深色文字。中文优先 Noto Sans 与系统中文回退；正文16px/1.5，8px间距基准，8px圆角。桌面左导航224px，主预览占主要空间，参数栏360px。1024px以下参数区分区，768px以下抽屉导航单列。触控目标44px，文字对比4.5:1，键盘焦点可见。所有照片与业务数据使用标注占位，不提供真人上传、公开分享或永久删除。导航项目/人物/摄影技能/摄影风格/作品，快捷生成常驻，归档次级入口。\",\"colorVariant\":\"NEUTRAL\",\"overridePrimaryColor\":\"#FAFAFA\",\"overrideNeutralColor\":\"#18181B\"}},\"version\":\"1\"}}],\"theme\":{}}},{\"text\":\"已为您完成「Prompt 库」桌面端页面（Prompt 库 · 桌面端默认状态）的设计与生成，严格遵循既有深色设计系统（`#18181B` 背景、`#27272A` 面板、`#FAFAFA` 主文字）及私有工作台规范：\\n\\n### 核心设计与业务逻辑实现\\n1. **统一侧栏导航架构**：\\n   - 侧栏主导航统一为 6 项：「项目、人物、Prompt（当前高亮）、摄影技能、摄影风格、作品」；\\n   - 常驻左上角快捷入口「快捷生成」，左下角保持独立次级「归档」入口，不附加技术角标。\\n2. **页头与检索体系**：\\n   - 标题与清晰定位说明，支持按关键词、标签与原文特征检索；\\n   - 明确主动作「收集 Prompt」（目标指向 `/prompts/new`）。\\n3. **精准 Filter Chips 与视图控制**：\\n   - 支持题材（全部、虚构人像、赛博都市、古典静物等）、来源、已知模型（明确标注 `[模型：未知]`）、本人试用结果（已有/本版本未试用）、状态（收藏/归档）；\\n   - 提供卡片与列表视图切换，以及无匹配时的「清除所有筛选」控件。\\n4. **条目卡片业务规则与占位规范**：\\n   - **封面与评价延续性**：已试用展示深色质感 `[本人生成结果占位图]`；无图明确展示「本版本未试用」；封面来自旧版时持续附带橙黄色警示标「来自旧版 [版本] · 旧试用评价不作为新版依据」；\\n   - **内置生成控制**：虚构人像条目支持「内置生成」；非人像条目保留「复制文本」与「打开详情」，内置生成按钮呈禁用状态并明确解释原因（“仅人像支持生成”）；\\n   - **已归档条目处理**：独立标注「已归档」，仅提供「恢复」与「查看历史」，禁用直接生成。\\n5. **合规与占位纯净化**：\\n   - 业务字段全量遵循纯占位规范：`[名称]`、`[版本]`、`[保存时间]`、`[原文]`、`[模型：未知]`；\\n   - 坚决杜绝真人肖像、曝光/焦段假参数、虚构验证标签、加密保证或过度开发调试工具条；所有按钮使用自然动作文案，无字面“（建议）”。\"},{\"suggestion\":\"进入某个条目的详情页 (/prompts/:promptId) 设计\"},{\"suggestion\":\"设计「收集 Prompt」(/prompts/new) 的新建与解析表单页面\"},{\"suggestion\":\"查看紧凑列表视图下的样式布局\"}]}"
+    }
+  ],
+  "structuredContent": {
+    "outputComponents": [
+      {
+        "design": {
+          "screens": [
+            {
+              "designSystem": {
+                "designSystem": {
+                  "displayName": "Praxis Vision · Quiet Portrait Studio",
+                  "theme": {
+                    "colorMode": "DARK",
+                    "colorVariant": "NEUTRAL",
+                    "customColor": "#FAFAFA",
+                    "designMd": "图片为中心的私有 AI 虚构人像摄影工作台。背景 #18181B，面板 #27272A，主要文字 #FAFAFA，次要文字 #D4D4D8；浅色主按钮深色文字。中文优先 Noto Sans 与系统中文回退；正文16px/1.5，8px间距基准，8px圆角。桌面左导航224px，主预览占主要空间，参数栏360px。1024px以下参数区分区，768px以下抽屉导航单列。触控目标44px，文字对比4.5:1，键盘焦点可见。所有照片与业务数据使用标注占位，不提供真人上传、公开分享或永久删除。导航项目/人物/摄影技能/摄影风格/作品，快捷生成常驻，归档次级入口。",
+                    "overrideNeutralColor": "#18181B",
+                    "overridePrimaryColor": "#FAFAFA",
+                    "roundness": "ROUND_EIGHT"
+                  }
+                },
+                "name": "assets/1178394102340625614",
+                "version": "1"
+              },
+              "deviceType": "DESKTOP",
+              "generatedBy": "figaro_agent",
+              "height": "2048",
+              "htmlCode": {
+                "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2MwODRjZjkyYjg2YzQyZjY5OWZhMGIwMzdlODIxY2MwEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+                "mimeType": "text/html",
+                "name": "projects/5480617662433312349/files/ebf3298a4b28485fb8cbc6f36b676c5a"
+              },
+              "id": "3ccc687ddbd34d41a9ac162a0e1c0d14",
+              "name": "projects/5480617662433312349/screens/3ccc687ddbd34d41a9ac162a0e1c0d14",
+              "prompt": "设计 Praxis Vision 私有虚构人像摄影工作台的「Prompt 库」页面（路由 /prompts）。\n桌面端沉浸式深色界面，继承已确认设计系统（背景 #18181B，面板/卡片 #27272A，主文字 #FAFAFA，次要文字 #D4D4D8，边框 #3F3F46/#27272A，强调色中性白与微灰，8px圆角基准，44px可触控目标）。\n\n【全局与侧栏导航】\n左侧常驻侧栏导航（宽度224px / w-56）：\n- 品牌标识：Praxis Vision / 私有虚构人像工作台\n- 常驻高亮快捷入口：“快捷生成”按钮\n- 主导航菜单（6项，中文标准）：\n  1. 项目\n  2. 人物\n  3. Prompt（当前激活状态，高亮背景与左侧或前缀指示）\n  4. 摄影技能\n  5. 摄影风格\n  6. 作品\n- 底部次级独立入口：“归档”次级入口，平视稳重，不带调试标签。\n\n【顶部与页头区】\n- 顶部路径与状态面包屑：Prompt 库 / 全部收藏\n- 页面主标题：“Prompt 库”\n- 副标题说明：“通过关键词、原文特征或本人试用结果找回收藏。仅 AI 虚构人像支持内置生成，非人像条目支持收藏与文本复用。”\n- 页头操作区：\n  - 关键词搜索框：“搜索标题、标签或原文关键词...”（占位与键盘可达）\n  - 主动作按钮：“收集 Prompt”（点击目标前往 /prompts/new）\n\n【Filter Chips 与控制栏】\n- 筛选维度：\n  - 题材过滤：全部题材、虚构人像、赛博都市、古典静物、光影构图、概念环境\n  - 来源平台：全部来源、本地编写、外部社区记录、文献归档\n  - 已知模型：全部模型、[模型：未知]、SDXL-Synthetic、FLUX-Studio\n  - 本人试用结果：全部、已有本人试用结果、本版本未试用\n  - 状态与标签：全部状态、已收藏、仅看归档\n- 视图切换与工具：\n  - 视图切换按键：卡片网格 / 紧凑列表（当前选中卡片视图）\n  - 明确“清除所有筛选”按钮（当筛选无匹配或重置时）\n\n【条目卡片主区域】\n展示 6 块标准结构卡片（网格布局 3 列），涵盖不同业务规范场景：\n卡片 1（虚构人像 · 有当前版本本人试用结果）：\n- 封面区：高质感深色线框占位图，清晰标注 `[本人生成结果占位图]`，右下角带有 `[版本]`\n- 题材标签：“虚构人像”徽章\n- 标题：“[名称] 冷光高调单灯肖像 Prompt”\n- 模型标注：“[模型：未知]”\n- 原文摘要：“[原文] (studio fictional portrait:1.2), neutral expression, soft rim lighting, subtle eye-level focus, monochrome...”\n- 版本与元信息：当前版本 `[版本]` · 保存时间 `[保存时间]`\n- 操作按钮：“打开详情”、“复制文本”、“内置生成”（虚构人像允许生成）\n\n卡片 2（虚构人像 · 本版本未试用）：\n- 封面区：深色占位，明确居中提示文字：“本版本未试用”（无图状态）\n- 题材标签：“虚构人像”\n- 标题：“[名称] 伦勃朗侧逆光质感草稿”\n- 模型标注：“[模型：未知]”\n- 原文摘要：“[原文] rembrandt lighting, 45-degree key light, chiaroscuro ratio, structured cheekbones, synthetic archetype...”\n- 版本与元信息：当前版本 `[版本]` · 保存时间 `[保存时间]`\n- 操作按钮：“打开详情”、“复制文本”、“内置生成”\n\n卡片 3（虚构人像 · 封面来自旧版）：\n- 封面区：深色线框占位图 `[本人生成结果占位图]`，醒目标记角标：“来自旧版 [版本] · 旧试用评价不作为新版依据”\n- 题材标签：“虚构人像”\n- 标题：“[名称] 胶片银盐微粒半身构图”\n- 模型标注：“[模型：未知]”\n- 原文摘要：“[原文] medium shot, vintage gelatin silver emulsion texture, muted contrast, subtle grain...”\n- 版本与元信息：当前版本 `[版本]` · 保存时间 `[保存时间]`\n- 操作按钮：“打开详情”、“复制文本”、“内置生成”\n\n卡片 4（非人像题材 · 环境概念 · 禁用内置生成）：\n- 封面区：深色占位图 `[本人生成结果占位图]`\n- 题材标签：“环境概念”\n- 标题：“[名称] 极简几何混凝土空间光影”\n- 模型标注：“[模型：未知]”\n- 原文摘要：“[原文] brutalist interior space, geometric concrete shadows, harsh morning sunbeam, quiet architectural atmosphere...”\n- 版本与元信息：当前版本 `[版本]` · 保存时间 `[保存时间]`\n- 操作与禁用提示：“打开详情”、“复制文本”；右侧内置生成按钮呈 disabled 灰度状态，悬停/伴随提示：“非人像仅支持收藏与文本复用，内置生成仅限 AI 虚构人像”\n\n卡片 5（非人像题材 · 静物光影 · 未试用）：\n- 封面区：居中提示：“本版本未试用”\n- 题材标签：“古典静物”\n- 标题：“[名称] 柔光暗调玻璃器皿折射”\n- 模型标注：“[模型：未知]”\n- 原文摘要：“[原文] still life glassware reflection, soft directional lighting, dark gradient velvet surface...”\n- 版本与元信息：当前版本 `[版本]` · 保存时间 `[保存时间]`\n- 操作按钮：“打开详情”、“复制文本”；“内置生成”（禁用状态，标注“仅人像支持生成”）\n\n卡片 6（已归档条目）：\n- 状态标识：“已归档”标签\n- 封面区：深色降对比占位图 `[本人生成结果占位图]`\n- 题材标签：“虚构人像”\n- 标题：“[名称] 实验性冷暖双色温面容测试”\n- 模型标注：“[模型：未知]”\n- 原文摘要：“[原文] experimental dual-temperature rim light, cyber synthetic bone structure, high neck garment...”\n- 版本与元信息：当前版本 `[版本]` · 保存时间 `[保存时间]`\n- 操作按钮：“恢复到库”、“查看历史快照”（已归档条目只支持恢复与查看历史，禁用生成）\n\n【底部状态与合规说明】\n- 分页控制：显示第 1 页，翻页控件，上一页、下一页\n- 底部安全与合规声明：“仅个人私有沙箱 · 仅 AI 虚构人像支持内置生成 · 外部示例仅记录链接不抓取/缓存 · 归档条目不设永久删除随时可恢复”\n\n【严谨合规要求】\n- 遵循单一默认桌面画布，不添加状态演示工具栏或互斥状态切换器；\n- 按钮采用自然动词，绝对不出现“（建议）”或“(建议)”；\n- 绝无真人上传、公开分享、模型训练或永久删除；\n- 纯占位符：[名称]、[版本]、[保存时间]、[原文]、[模型：未知]，不编造具体相机光圈假数据或伪造项目数量。",
+              "screenMetadata": { "agentType": "PRO_AGENT", "status": "COMPLETE" },
+              "screenType": "DESIGN",
+              "screenshot": {
+                "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1UQwAi0JF9j_yc4jCrJu0ihuCDh0paMOel2o_yq23eyoMcjkS-BlhLRo718Qd04PiTOLM0nAeImY6W8noglS_KiSTLN2lEd1KYvfjg0iTzNluOh77sTNPaVfAeQASsn699qHzMymGnLncO2cgcSIXjX5J1BAWCLB3oEsZxniEjtZjVhEknPqgp63JJCux4FqAf-uOIe2OfPN1iEBwivn5E3QZ7ywOjRh5D2crM8MfMQNBU8HUNt1IEL7ec",
+                "name": "projects/5480617662433312349/files/7932080dd3754dfc8195c053e7036e9c"
+              },
+              "theme": {
+                "colorMode": "DARK",
+                "colorVariant": "NEUTRAL",
+                "customColor": "#FAFAFA",
+                "overrideNeutralColor": "#18181B",
+                "overridePrimaryColor": "#FAFAFA",
+                "roundness": "ROUND_EIGHT"
+              },
+              "title": "Prompt 库 · 桌面端默认状态",
+              "width": "2560"
+            }
+          ],
+          "theme": {}
+        }
+      },
+      {
+        "text": "已为您完成「Prompt 库」桌面端页面（Prompt 库 · 桌面端默认状态）的设计与生成，严格遵循既有深色设计系统（`#18181B` 背景、`#27272A` 面板、`#FAFAFA` 主文字）及私有工作台规范：\n\n### 核心设计与业务逻辑实现\n1. **统一侧栏导航架构**：\n   - 侧栏主导航统一为 6 项：「项目、人物、Prompt（当前高亮）、摄影技能、摄影风格、作品」；\n   - 常驻左上角快捷入口「快捷生成」，左下角保持独立次级「归档」入口，不附加技术角标。\n2. **页头与检索体系**：\n   - 标题与清晰定位说明，支持按关键词、标签与原文特征检索；\n   - 明确主动作「收集 Prompt」（目标指向 `/prompts/new`）。\n3. **精准 Filter Chips 与视图控制**：\n   - 支持题材（全部、虚构人像、赛博都市、古典静物等）、来源、已知模型（明确标注 `[模型：未知]`）、本人试用结果（已有/本版本未试用）、状态（收藏/归档）；\n   - 提供卡片与列表视图切换，以及无匹配时的「清除所有筛选」控件。\n4. **条目卡片业务规则与占位规范**：\n   - **封面与评价延续性**：已试用展示深色质感 `[本人生成结果占位图]`；无图明确展示「本版本未试用」；封面来自旧版时持续附带橙黄色警示标「来自旧版 [版本] · 旧试用评价不作为新版依据」；\n   - **内置生成控制**：虚构人像条目支持「内置生成」；非人像条目保留「复制文本」与「打开详情」，内置生成按钮呈禁用状态并明确解释原因（“仅人像支持生成”）；\n   - **已归档条目处理**：独立标注「已归档」，仅提供「恢复」与「查看历史」，禁用直接生成。\n5. **合规与占位纯净化**：\n   - 业务字段全量遵循纯占位规范：`[名称]`、`[版本]`、`[保存时间]`、`[原文]`、`[模型：未知]`；\n   - 坚决杜绝真人肖像、曝光/焦段假参数、虚构验证标签、加密保证或过度开发调试工具条；所有按钮使用自然动作文案，无字面“（建议）”。"
+      },
+      { "suggestion": "进入某个条目的详情页 (/prompts/:promptId) 设计" },
+      { "suggestion": "设计「收集 Prompt」(/prompts/new) 的新建与解析表单页面" },
+      { "suggestion": "查看紧凑列表视图下的样式布局" }
+    ],
+    "projectId": "5480617662433312349",
+    "sessionId": "3798426541593076126"
+  }
+}

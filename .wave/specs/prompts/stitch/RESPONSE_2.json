@@ -1,0 +1,72 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"projectId\":\"5480617662433312349\",\"sessionId\":\"17547659105167460508\",\"outputComponents\":[{\"design\":{\"screens\":[{\"screenshot\":{\"name\":\"projects/5480617662433312349/files/e06fd50b4e0e4571afad8328dd5d3f3a\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1Vm3N74C-EBXwodz_ltAKEFC3gQqm-jTl9MsGzRQMmebzSUBk-1-tBKNkA3LNWVeJXw9BI35ZKGghBMenudqz7ay1vv4fCznlzVZFQSE2KQcpwpUqEc-ZRwhRBNkoohh3m6_RKy2SiV3DYR_k7Ip-DHhhGJf4_hEWOmpyVj4aZZiXRNBeH38_RduWCl8zyac_Qw1kA0I20yrTbkvsr3hOCGJv5zkG4QYKW3o-W7AM00SNNK-N67q6QMLkU\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/b87dba54cd664b61a1bfcabb706cd0c6\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzE0NGUxZTE0YTNmYzRkZTA5YmM5Nzg2YTQ5ODE5ZWZlEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"id\":\"d50b2ba427834eae811a0f5735c46b7c\",\"generatedBy\":\"figaro_agent\",\"width\":\"2560\",\"height\":\"3928\",\"title\":\"收集 Prompt · 桌面端默认状态\",\"prompt\":\"设计“收集 Prompt”页面（路由 /prompts/new），桌面端默认状态。\\n\\n视觉与布局：\\n- 严格继承深色设计系统（背景 #18181B，卡片/面板 #27272A，主文字 #FAFAFA，次要文字 #D4D4D8，边框 #3F3F46/#27272A）。\\n- 保持左侧全局侧栏导航（宽度224px / w-56）：包含品牌标识「Praxis Vision 私有虚构人像工作台」，常驻「快捷生成」按钮，主导航项严格逐字为「项目」、「人物」、「Prompt」（当前选中高亮）、「摄影技能」、「摄影风格」、「作品」，底部为次级「归档」入口。\\n- 顶部导航/面包屑：展示「Prompt 库」 \\u003e 「收集 Prompt」，右侧保留简明私有工作区状态标签，无技术调试信息。\\n\\n页面主体结构（单列表单原文输入为主且唯一必填，支持宽屏舒适阅读与输入）：\\n1. 页面标题与导读：\\n   - 标题「收集 Prompt」，副标题「原文先保存，其余信息后补。支持多题材 Prompt 收藏归档；仅 AI 虚构人像支持后续内置生成。」\\n   - 包含未保存状态轻量提醒机制。\\n\\n2. 核心核心输入区（原文输入为主，唯一必填）：\\n   - 提示词原文输入框（Textarea，多行高度，清晰标注「*必填」），提供占位提示「粘贴或输入完整 Prompt 原文...（仅此项必填）」。\\n   - 原文标题（选填）：提供「自动从首段提取」或手动编辑，默认 placeholder 为「默认截取首段文字，可自定义修改标题」。\\n\\n3. 可后补信息分区（折叠或卡片分区，层次清晰，明确标明“可后补/选填”，未知不猜）：\\n   - 分区 A：题材与分类\\n     - 题材单选/标签选择：人像（支持内置生成）、风光、插画、概念环境、其他（明确注明“多题材均可收藏，仅人像题材支持内置生成”）。\\n     - 标签输入/选择：如 赛博朋克、胶片质感、极简、光影等自由标签。\\n   - 分区 B：来源与归属（纯记录，不自动抓取或提炼）\\n     - 来源链接（选填，输入框，说明“仅记录外部链接，不自动抓取、解析或缓存外链内容”）。\\n     - 来源平台/作者（选填文本输入）。\\n   - 分区 C：技术与生成上下文（已知参数后补）\\n     - 已知原模型（如 Midjourney、SDXL、FLUX 或标明[模型：未知]）。\\n     - 负面词（Negative Prompt，选填多行输入框）。\\n     - 已知参数与配置（如采样器、步数、CFG、宽高比等，纯文本输入）。\\n   - 分区 D：备注与备忘说明（选填文本框）。\\n\\n4. 查重与重复提示机制（规范声明，默认状态展示正常表单，附带规则说明卡）：\\n   - 规范提示说明：系统保存时若检测到完全一致的原文，将提示“已有条目入口”、“追加来源”或“明确另存”，不同原文相同链接不会被覆盖合并。默认不展示假的重复错误或假命中。\\n\\n5. 底部操作栏：\\n   - 主按钮「保存 Prompt」（高亮白底黑字），次级按钮「取消」（幽灵按钮返回 Prompt 库）。\\n   - 不以生成为保存前提，不绑定制图动作。\\n   - 底部隐私与规范声明：私有沙箱存储，不上传真人肖像，不自动调用未授权第三方服务。\\n\\n文案与占位严苛规范：\\n- 严格不出现“（建议）”或“(建议)”。\\n- 占位符使用标准 `[名称]`、`[版本]`、`[保存时间]`、`[原文]`、`[模型：未知]`，不伪造具体数量、测试通过、加密保证或相机假数据。\\n- 绝不包含沙箱节点、Cluster、PROD-MOCK、开发调试开关或状态切换器。\",\"name\":\"projects/5480617662433312349/screens/d50b2ba427834eae811a0f5735c46b7c\",\"theme\":{\"colorMode\":\"DARK\",\"roundness\":\"ROUND_EIGHT\",\"customColor\":\"#FAFAFA\",\"colorVariant\":\"NEUTRAL\",\"overridePrimaryColor\":\"#FAFAFA\",\"overrideNeutralColor\":\"#18181B\"},\"deviceType\":\"DESKTOP\",\"screenType\":\"DESIGN\",\"screenMetadata\":{\"agentType\":\"PRO_AGENT\",\"status\":\"COMPLETE\"},\"designSystem\":{\"name\":\"assets/1178394102340625614\",\"designSystem\":{\"displayName\":\"Praxis Vision · Quiet Portrait Studio\",\"theme\":{\"colorMode\":\"DARK\",\"roundness\":\"ROUND_EIGHT\",\"customColor\":\"#FAFAFA\",\"designMd\":\"图片为中心的私有 AI 虚构人像摄影工作台。背景 #18181B，面板 #27272A，主要文字 #FAFAFA，次要文字 #D4D4D8；浅色主按钮深色文字。中文优先 Noto Sans 与系统中文回退；正文16px/1.5，8px间距基准，8px圆角。桌面左导航224px，主预览占主要空间，参数栏360px。1024px以下参数区分区，768px以下抽屉导航单列。触控目标44px，文字对比4.5:1，键盘焦点可见。所有照片与业务数据使用标注占位，不提供真人上传、公开分享或永久删除。导航项目/人物/摄影技能/摄影风格/作品，快捷生成常驻，归档次级入口。\",\"colorVariant\":\"NEUTRAL\",\"overridePrimaryColor\":\"#FAFAFA\",\"overrideNeutralColor\":\"#18181B\"}},\"version\":\"1\"}}],\"theme\":{}}},{\"text\":\"已为您生成“收集 Prompt”页面（桌面端默认状态，路由 `/prompts/new`），严格遵循您的规范与整体工作台设计系统：\\n\\n### 设计与功能要点\\n1. **统一侧栏与导航架构**：\\n   - 继承深色视觉体系（主背景 `#18181B`、卡片面板 `#27272A`、主文字 `#FAFAFA`）；\\n   - 侧栏导航项严格逐字为「项目、人物、Prompt（当前高亮选中）、摄影技能、摄影风格、作品」，左侧常驻「快捷生成」按钮，底部保留次级「归档」入口；\\n   - 面包屑清晰呈现「Prompt 库 / 收集 Prompt」。\\n\\n2. **核心原则：原文先保存，其余信息后补**：\\n   - **唯一必填项**：大面积纯净的多行「提示词原文」输入区域，支持中英文完整原始文本直接粘贴，系统严格按原样完整存储；\\n   - **条目标题**：选填输入，提供“自动从首段提取”轻量辅助，默认按首段文字截取，用户可自由覆盖。\\n\\n3. **模块化后补分区（选填且未知不猜）**：\\n   - **题材与分类**：提供「虚构人像（标明支持内置生成）」、「风光自然」、「插画艺术」、「概念环境」、「其他题材」多选分类，明确注明多题材皆可入库归档，仅虚构人像支持内置生成，并支持自由标签管理；\\n   - **来源与归属**：提供外部网页/社区链接、来源平台或作者标注文本框，严格注明“仅记录来源文本，不自动抓取、解析或缓存外链内容”；\\n   - **技术与生成上下文**：选填已知模型（未知时保持默认 `[模型：未知]`）、负面提示词（Negative Prompt）及已知参数配置，完全不强求输入或盲目填补假参数；\\n   - **备注与备忘**：提供纯文本输入区，方便记录收藏初衷或后续虚构构思。\\n\\n4. **规范提示与交互细节**：\\n   - **查重机制说明**：明确系统查重规则（若检测到完全一致原文，将提供“已有条目入口”、“追加来源”或“明确另存”；相同链接不同原文不会被合并覆盖），默认状态不展示虚假的重复报错；\\n   - **操作栏与动作自然化**：主要动作「保存 Prompt」、次级动作「取消」，不将生图作为保存的前置条件，且全站无“（建议）”冗余字面；\\n   - **隐私与合规**：底部统一注明纯私有存储、无真人肖像上传、不调用未授权第三方服务，彻底移除调试节点标签、状态切换器与伪造数据。\"},{\"suggestion\":\"查看输入错误或空原文校验聚焦状态\"},{\"suggestion\":\"添加检测到相同原文时的重复处理弹窗（追加来源/另存）\"},{\"suggestion\":\"查看移动端/平板单列抽屉响应式适配\"}]}"
+    }
+  ],
+  "structuredContent": {
+    "outputComponents": [
+      {
+        "design": {
+          "screens": [
+            {
+              "designSystem": {
+                "designSystem": {
+                  "displayName": "Praxis Vision · Quiet Portrait Studio",
+                  "theme": {
+                    "colorMode": "DARK",
+                    "colorVariant": "NEUTRAL",
+                    "customColor": "#FAFAFA",
+                    "designMd": "图片为中心的私有 AI 虚构人像摄影工作台。背景 #18181B，面板 #27272A，主要文字 #FAFAFA，次要文字 #D4D4D8；浅色主按钮深色文字。中文优先 Noto Sans 与系统中文回退；正文16px/1.5，8px间距基准，8px圆角。桌面左导航224px，主预览占主要空间，参数栏360px。1024px以下参数区分区，768px以下抽屉导航单列。触控目标44px，文字对比4.5:1，键盘焦点可见。所有照片与业务数据使用标注占位，不提供真人上传、公开分享或永久删除。导航项目/人物/摄影技能/摄影风格/作品，快捷生成常驻，归档次级入口。",
+                    "overrideNeutralColor": "#18181B",
+                    "overridePrimaryColor": "#FAFAFA",
+                    "roundness": "ROUND_EIGHT"
+                  }
+                },
+                "name": "assets/1178394102340625614",
+                "version": "1"
+              },
+              "deviceType": "DESKTOP",
+              "generatedBy": "figaro_agent",
+              "height": "3928",
+              "htmlCode": {
+                "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzE0NGUxZTE0YTNmYzRkZTA5YmM5Nzg2YTQ5ODE5ZWZlEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+                "mimeType": "text/html",
+                "name": "projects/5480617662433312349/files/b87dba54cd664b61a1bfcabb706cd0c6"
+              },
+              "id": "d50b2ba427834eae811a0f5735c46b7c",
+              "name": "projects/5480617662433312349/screens/d50b2ba427834eae811a0f5735c46b7c",
+              "prompt": "设计“收集 Prompt”页面（路由 /prompts/new），桌面端默认状态。\n\n视觉与布局：\n- 严格继承深色设计系统（背景 #18181B，卡片/面板 #27272A，主文字 #FAFAFA，次要文字 #D4D4D8，边框 #3F3F46/#27272A）。\n- 保持左侧全局侧栏导航（宽度224px / w-56）：包含品牌标识「Praxis Vision 私有虚构人像工作台」，常驻「快捷生成」按钮，主导航项严格逐字为「项目」、「人物」、「Prompt」（当前选中高亮）、「摄影技能」、「摄影风格」、「作品」，底部为次级「归档」入口。\n- 顶部导航/面包屑：展示「Prompt 库」 > 「收集 Prompt」，右侧保留简明私有工作区状态标签，无技术调试信息。\n\n页面主体结构（单列表单原文输入为主且唯一必填，支持宽屏舒适阅读与输入）：\n1. 页面标题与导读：\n   - 标题「收集 Prompt」，副标题「原文先保存，其余信息后补。支持多题材 Prompt 收藏归档；仅 AI 虚构人像支持后续内置生成。」\n   - 包含未保存状态轻量提醒机制。\n\n2. 核心核心输入区（原文输入为主，唯一必填）：\n   - 提示词原文输入框（Textarea，多行高度，清晰标注「*必填」），提供占位提示「粘贴或输入完整 Prompt 原文...（仅此项必填）」。\n   - 原文标题（选填）：提供「自动从首段提取」或手动编辑，默认 placeholder 为「默认截取首段文字，可自定义修改标题」。\n\n3. 可后补信息分区（折叠或卡片分区，层次清晰，明确标明“可后补/选填”，未知不猜）：\n   - 分区 A：题材与分类\n     - 题材单选/标签选择：人像（支持内置生成）、风光、插画、概念环境、其他（明确注明“多题材均可收藏，仅人像题材支持内置生成”）。\n     - 标签输入/选择：如 赛博朋克、胶片质感、极简、光影等自由标签。\n   - 分区 B：来源与归属（纯记录，不自动抓取或提炼）\n     - 来源链接（选填，输入框，说明“仅记录外部链接，不自动抓取、解析或缓存外链内容”）。\n     - 来源平台/作者（选填文本输入）。\n   - 分区 C：技术与生成上下文（已知参数后补）\n     - 已知原模型（如 Midjourney、SDXL、FLUX 或标明[模型：未知]）。\n     - 负面词（Negative Prompt，选填多行输入框）。\n     - 已知参数与配置（如采样器、步数、CFG、宽高比等，纯文本输入）。\n   - 分区 D：备注与备忘说明（选填文本框）。\n\n4. 查重与重复提示机制（规范声明，默认状态展示正常表单，附带规则说明卡）：\n   - 规范提示说明：系统保存时若检测到完全一致的原文，将提示“已有条目入口”、“追加来源”或“明确另存”，不同原文相同链接不会被覆盖合并。默认不展示假的重复错误或假命中。\n\n5. 底部操作栏：\n   - 主按钮「保存 Prompt」（高亮白底黑字），次级按钮「取消」（幽灵按钮返回 Prompt 库）。\n   - 不以生成为保存前提，不绑定制图动作。\n   - 底部隐私与规范声明：私有沙箱存储，不上传真人肖像，不自动调用未授权第三方服务。\n\n文案与占位严苛规范：\n- 严格不出现“（建议）”或“(建议)”。\n- 占位符使用标准 `[名称]`、`[版本]`、`[保存时间]`、`[原文]`、`[模型：未知]`，不伪造具体数量、测试通过、加密保证或相机假数据。\n- 绝不包含沙箱节点、Cluster、PROD-MOCK、开发调试开关或状态切换器。",
+              "screenMetadata": { "agentType": "PRO_AGENT", "status": "COMPLETE" },
+              "screenType": "DESIGN",
+              "screenshot": {
+                "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1Vm3N74C-EBXwodz_ltAKEFC3gQqm-jTl9MsGzRQMmebzSUBk-1-tBKNkA3LNWVeJXw9BI35ZKGghBMenudqz7ay1vv4fCznlzVZFQSE2KQcpwpUqEc-ZRwhRBNkoohh3m6_RKy2SiV3DYR_k7Ip-DHhhGJf4_hEWOmpyVj4aZZiXRNBeH38_RduWCl8zyac_Qw1kA0I20yrTbkvsr3hOCGJv5zkG4QYKW3o-W7AM00SNNK-N67q6QMLkU",
+                "name": "projects/5480617662433312349/files/e06fd50b4e0e4571afad8328dd5d3f3a"
+              },
+              "theme": {
+                "colorMode": "DARK",
+                "colorVariant": "NEUTRAL",
+                "customColor": "#FAFAFA",
+                "overrideNeutralColor": "#18181B",
+                "overridePrimaryColor": "#FAFAFA",
+                "roundness": "ROUND_EIGHT"
+              },
+              "title": "收集 Prompt · 桌面端默认状态",
+              "width": "2560"
+            }
+          ],
+          "theme": {}
+        }
+      },
+      {
+        "text": "已为您生成“收集 Prompt”页面（桌面端默认状态，路由 `/prompts/new`），严格遵循您的规范与整体工作台设计系统：\n\n### 设计与功能要点\n1. **统一侧栏与导航架构**：\n   - 继承深色视觉体系（主背景 `#18181B`、卡片面板 `#27272A`、主文字 `#FAFAFA`）；\n   - 侧栏导航项严格逐字为「项目、人物、Prompt（当前高亮选中）、摄影技能、摄影风格、作品」，左侧常驻「快捷生成」按钮，底部保留次级「归档」入口；\n   - 面包屑清晰呈现「Prompt 库 / 收集 Prompt」。\n\n2. **核心原则：原文先保存，其余信息后补**：\n   - **唯一必填项**：大面积纯净的多行「提示词原文」输入区域，支持中英文完整原始文本直接粘贴，系统严格按原样完整存储；\n   - **条目标题**：选填输入，提供“自动从首段提取”轻量辅助，默认按首段文字截取，用户可自由覆盖。\n\n3. **模块化后补分区（选填且未知不猜）**：\n   - **题材与分类**：提供「虚构人像（标明支持内置生成）」、「风光自然」、「插画艺术」、「概念环境」、「其他题材」多选分类，明确注明多题材皆可入库归档，仅虚构人像支持内置生成，并支持自由标签管理；\n   - **来源与归属**：提供外部网页/社区链接、来源平台或作者标注文本框，严格注明“仅记录来源文本，不自动抓取、解析或缓存外链内容”；\n   - **技术与生成上下文**：选填已知模型（未知时保持默认 `[模型：未知]`）、负面提示词（Negative Prompt）及已知参数配置，完全不强求输入或盲目填补假参数；\n   - **备注与备忘**：提供纯文本输入区，方便记录收藏初衷或后续虚构构思。\n\n4. **规范提示与交互细节**：\n   - **查重机制说明**：明确系统查重规则（若检测到完全一致原文，将提供“已有条目入口”、“追加来源”或“明确另存”；相同链接不同原文不会被合并覆盖），默认状态不展示虚假的重复报错；\n   - **操作栏与动作自然化**：主要动作「保存 Prompt」、次级动作「取消」，不将生图作为保存的前置条件，且全站无“（建议）”冗余字面；\n   - **隐私与合规**：底部统一注明纯私有存储、无真人肖像上传、不调用未授权第三方服务，彻底移除调试节点标签、状态切换器与伪造数据。"
+      },
+      { "suggestion": "查看输入错误或空原文校验聚焦状态" },
+      { "suggestion": "添加检测到相同原文时的重复处理弹窗（追加来源/另存）" },
+      { "suggestion": "查看移动端/平板单列抽屉响应式适配" }
+    ],
+    "projectId": "5480617662433312349",
+    "sessionId": "17547659105167460508"
+  }
+}

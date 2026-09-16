@@ -1,0 +1,6 @@
+{
+	"extends": "@praxis-vision/config/tsconfig.base.json",
+	"compilerOptions": {
+		"noEmit": true
+	}
+}

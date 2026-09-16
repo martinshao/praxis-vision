@@ -36,4 +36,8 @@ MODULE.md、DESIGN.md、INIT / PRD v3。
 
 ## 外部与跨模块
 
-Stitch：DISABLED / NOT_REQUESTED；Figma 未提供。不生成 HTML 或图片原型。共享视觉变量由 app-shell/UI.md 汇总，业务交互由本模块维护。
+Stitch：MCP_GENERATE；设计系统已由用户确认。私有项目：[praxis-vision · INIT](https://stitch.withgoogle.com/projects/5480617662433312349)。逐屏 ID、工具描述与核对结果见 [STITCH_RESULT.md](stitch/STITCH_RESULT.md)，全局入口见 [STITCH_DESIGN_INDEX.md](../../STITCH_DESIGN_INDEX.md)。GENERATED 不等同人工批准；当前仅默认桌面稿。共享视觉变量由 app-shell/UI.md 汇总，业务交互由本模块维护。
+
+## v4 共享导航增量
+
+新增一级Prompt及三路由入口，统一由app-shell定义；本模块人物/风格业务、服务与任务不改。当前READY表示文档增量一致性，旧Stitch稿仍STALE，不作视觉验收。

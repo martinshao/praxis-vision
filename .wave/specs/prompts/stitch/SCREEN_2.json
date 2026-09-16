@@ -1,0 +1,24 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"name\":\"projects/5480617662433312349/screens/d50b2ba427834eae811a0f5735c46b7c\",\"title\":\"收集 Prompt · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/e06fd50b4e0e4571afad8328dd5d3f3a\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1Vm3N74C-EBXwodz_ltAKEFC3gQqm-jTl9MsGzRQMmebzSUBk-1-tBKNkA3LNWVeJXw9BI35ZKGghBMenudqz7ay1vv4fCznlzVZFQSE2KQcpwpUqEc-ZRwhRBNkoohh3m6_RKy2SiV3DYR_k7Ip-DHhhGJf4_hEWOmpyVj4aZZiXRNBeH38_RduWCl8zyac_Qw1kA0I20yrTbkvsr3hOCGJv5zkG4QYKW3o-W7AM00SNNK-N67q6QMLkU\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/b87dba54cd664b61a1bfcabb706cd0c6\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzE0NGUxZTE0YTNmYzRkZTA5YmM5Nzg2YTQ5ODE5ZWZlEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"3928\",\"deviceType\":\"DESKTOP\"}"
+    }
+  ],
+  "structuredContent": {
+    "deviceType": "DESKTOP",
+    "height": "3928",
+    "htmlCode": {
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzE0NGUxZTE0YTNmYzRkZTA5YmM5Nzg2YTQ5ODE5ZWZlEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+      "mimeType": "text/html",
+      "name": "projects/5480617662433312349/files/b87dba54cd664b61a1bfcabb706cd0c6"
+    },
+    "name": "projects/5480617662433312349/screens/d50b2ba427834eae811a0f5735c46b7c",
+    "screenshot": {
+      "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1Vm3N74C-EBXwodz_ltAKEFC3gQqm-jTl9MsGzRQMmebzSUBk-1-tBKNkA3LNWVeJXw9BI35ZKGghBMenudqz7ay1vv4fCznlzVZFQSE2KQcpwpUqEc-ZRwhRBNkoohh3m6_RKy2SiV3DYR_k7Ip-DHhhGJf4_hEWOmpyVj4aZZiXRNBeH38_RduWCl8zyac_Qw1kA0I20yrTbkvsr3hOCGJv5zkG4QYKW3o-W7AM00SNNK-N67q6QMLkU",
+      "name": "projects/5480617662433312349/files/e06fd50b4e0e4571afad8328dd5d3f3a"
+    },
+    "title": "收集 Prompt · 桌面端默认状态",
+    "width": "2560"
+  }
+}

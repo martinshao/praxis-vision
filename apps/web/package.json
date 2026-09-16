@@ -1,0 +1,52 @@
+{
+	"name": "@praxis/web",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --hostname 127.0.0.1 --port 3001",
+		"build": "next build",
+		"check-types": "tsc --noEmit",
+		"start": "next start",
+		"env:generate": "varlock codegen",
+		"typecheck": "next typegen && tsc --noEmit",
+		"test": "vitest run",
+		"test:e2e": "playwright test",
+		"lint": "biome check src tests e2e *.ts"
+	},
+	"dependencies": {
+		"@libsql/client": "catalog:",
+		"@praxis-vision/auth": "workspace:*",
+		"@praxis-vision/db": "workspace:*",
+		"@praxis-vision/ui": "workspace:*",
+		"@swc/helpers": "^0.5.23",
+		"@tanstack/react-form": "^1.33.5",
+		"@varlock/nextjs-integration": "1.2.2",
+		"babel-plugin-react-compiler": "^1.0.0",
+		"better-auth": "catalog:",
+		"libsql": "catalog:",
+		"lucide-react": "catalog:",
+		"next": "^16.3.4",
+		"next-themes": "catalog:",
+		"react": "catalog:",
+		"react-dom": "catalog:",
+		"sonner": "catalog:",
+		"varlock": "catalog:",
+		"zod": "catalog:"
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.63.0",
+		"@praxis-vision/config": "workspace:*",
+		"@tailwindcss/postcss": "catalog:",
+		"@testing-library/jest-dom": "^7.0.1",
+		"@testing-library/react": "^16.3.3",
+		"@testing-library/user-event": "^14.6.7",
+		"@types/node": "catalog:",
+		"@types/react": "catalog:",
+		"@types/react-dom": "catalog:",
+		"jsdom": "^30.0.1",
+		"tailwindcss": "catalog:",
+		"typescript": "catalog:",
+		"vitest": "^4.1.11"
+	},
+	"type": "module"
+}

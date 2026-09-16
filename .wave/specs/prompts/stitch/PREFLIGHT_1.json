@@ -1,0 +1,31 @@
+{
+  "status": "fulfilled",
+  "value": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"designSystems\":[{\"name\":\"assets/1178394102340625614\",\"designSystem\":{\"displayName\":\"Praxis Vision · Quiet Portrait Studio\",\"theme\":{\"colorMode\":\"DARK\",\"roundness\":\"ROUND_EIGHT\",\"customColor\":\"#FAFAFA\",\"designMd\":\"图片为中心的私有 AI 虚构人像摄影工作台。背景 #18181B，面板 #27272A，主要文字 #FAFAFA，次要文字 #D4D4D8；浅色主按钮深色文字。中文优先 Noto Sans 与系统中文回退；正文16px/1.5，8px间距基准，8px圆角。桌面左导航224px，主预览占主要空间，参数栏360px。1024px以下参数区分区，768px以下抽屉导航单列。触控目标44px，文字对比4.5:1，键盘焦点可见。所有照片与业务数据使用标注占位，不提供真人上传、公开分享或永久删除。导航项目/人物/摄影技能/摄影风格/作品，快捷生成常驻，归档次级入口。\",\"colorVariant\":\"NEUTRAL\",\"overridePrimaryColor\":\"#FAFAFA\",\"overrideNeutralColor\":\"#18181B\"}},\"version\":\"1\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "designSystems": [
+        {
+          "designSystem": {
+            "displayName": "Praxis Vision · Quiet Portrait Studio",
+            "theme": {
+              "colorMode": "DARK",
+              "colorVariant": "NEUTRAL",
+              "customColor": "#FAFAFA",
+              "designMd": "图片为中心的私有 AI 虚构人像摄影工作台。背景 #18181B，面板 #27272A，主要文字 #FAFAFA，次要文字 #D4D4D8；浅色主按钮深色文字。中文优先 Noto Sans 与系统中文回退；正文16px/1.5，8px间距基准，8px圆角。桌面左导航224px，主预览占主要空间，参数栏360px。1024px以下参数区分区，768px以下抽屉导航单列。触控目标44px，文字对比4.5:1，键盘焦点可见。所有照片与业务数据使用标注占位，不提供真人上传、公开分享或永久删除。导航项目/人物/摄影技能/摄影风格/作品，快捷生成常驻，归档次级入口。",
+              "overrideNeutralColor": "#18181B",
+              "overridePrimaryColor": "#FAFAFA",
+              "roundness": "ROUND_EIGHT"
+            }
+          },
+          "name": "assets/1178394102340625614",
+          "version": "1"
+        }
+      ]
+    }
+  }
+}

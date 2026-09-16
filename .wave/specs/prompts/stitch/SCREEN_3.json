@@ -1,0 +1,24 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"name\":\"projects/5480617662433312349/screens/054cd8a9c7394b98a65364294448af99\",\"title\":\"条目详情与版本 · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/221a056b81bc42c7a79c24519953850f\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1UcItmw9iorND6tjlp8Xr-rLDiZKrIEDCDU6sF1BN6IgK1LxIozZ-g7Pp7fcp_lm9dkckDjBStwIiDEnJ7T-D_nOp66gbJH6Zc_Mi04VDXX6Khmh9XsdEQ4aEjKAcLhkdPcauwkw8Ct0AV5yk6Q6a4A9Ruka-heKyHX3vuKWYfHrXJL1JA5p23VwcysJkM9j8QHXXW3dkXD51dKuaryfkpN_JRaVWMFVecVRkvHC5Sfj_Q86ATwLhy5QJE\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/cb3e398ed9794f408ad6591102203e88\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzMxZTJmOWQwNWY4MjRkYzNiOTBjMDg0NTIwMWZlMjZhEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2998\",\"deviceType\":\"DESKTOP\"}"
+    }
+  ],
+  "structuredContent": {
+    "deviceType": "DESKTOP",
+    "height": "2998",
+    "htmlCode": {
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzMxZTJmOWQwNWY4MjRkYzNiOTBjMDg0NTIwMWZlMjZhEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+      "mimeType": "text/html",
+      "name": "projects/5480617662433312349/files/cb3e398ed9794f408ad6591102203e88"
+    },
+    "name": "projects/5480617662433312349/screens/054cd8a9c7394b98a65364294448af99",
+    "screenshot": {
+      "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1UcItmw9iorND6tjlp8Xr-rLDiZKrIEDCDU6sF1BN6IgK1LxIozZ-g7Pp7fcp_lm9dkckDjBStwIiDEnJ7T-D_nOp66gbJH6Zc_Mi04VDXX6Khmh9XsdEQ4aEjKAcLhkdPcauwkw8Ct0AV5yk6Q6a4A9Ruka-heKyHX3vuKWYfHrXJL1JA5p23VwcysJkM9j8QHXXW3dkXD51dKuaryfkpN_JRaVWMFVecVRkvHC5Sfj_Q86ATwLhy5QJE",
+      "name": "projects/5480617662433312349/files/221a056b81bc42c7a79c24519953850f"
+    },
+    "title": "条目详情与版本 · 桌面端默认状态",
+    "width": "2560"
+  }
+}

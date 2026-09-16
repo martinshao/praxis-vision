@@ -24,9 +24,9 @@
 
 ## 文档状态
 
-| Design | UI | Arch | Spec | Tasks | 总状态 |
-|---|---|---|---|---|---|
-| READY | READY | READY | READY | READY | ready |
+| Design | UI    | Arch  | Spec  | Tasks | 总状态 |
+| ------ | ----- | ----- | ----- | ----- | ------ |
+| READY  | READY | READY | READY | READY | ready  |
 
 ## 待生成文档
 

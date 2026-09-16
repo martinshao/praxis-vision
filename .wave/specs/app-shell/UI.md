@@ -24,6 +24,15 @@ app-shell/DESIGN.md 与全部业务 UI.md；INIT / PRD v3。
 
 ## 状态与可访问性
 
-抽屉焦点管理、跳过导航链接、当前页面标识、可见焦点；错误页面提供返回项目或局部重试。所有 DESIGN 路由均建立占位入口。Stitch DISABLED。
+抽屉焦点管理、跳过导航链接、当前页面标识、可见焦点；错误页面提供返回项目或局部重试。所有 DESIGN 路由均建立占位入口。Stitch：MCP_GENERATE；设计系统已确认。私有项目：[praxis-vision · INIT](https://stitch.withgoogle.com/projects/5480617662433312349)。实际 Screen ID、工具描述与核对状态见 [STITCH_RESULT.md](stitch/STITCH_RESULT.md)；总入口 [STITCH_DESIGN_INDEX.md](../../STITCH_DESIGN_INDEX.md)。当前仅默认桌面生成稿，未获人工批准。
 
 - `/sign-in`：私有工作区必要会话入口；本阶段仅占位，workspace 实现认证；无公开注册。
+
+## PRD v4 必要增量（原功能内容保留）
+
+来源：INIT PRD v4 CONFIRMED；新增F-013–F-015 / AC-013–AC-015，不重写已有能力。详细数据、接口、限值、试用与封面规则见 ../prompts/ARCH.md、../prompts/SPEC.md及共享CONTRACTS。
+新增/prompts、/prompts/new、/prompts/:promptId三页面壳；对应Next app/prompts/page.tsx、new/page.tsx、[promptId]/page.tsx。主导航为项目、人物、Prompt、摄影技能、摄影风格、作品；快捷生成常驻，归档次级。详情面包屑Prompt→[名称]，无权限/404回本人库。APP-SHELL-001增加这些导航和占位壳，仅标题/说明/未实现区域，不写真实表单、API、任务调用或Mock。具体Prompt业务在prompts/TASK-005。
+
+## 本轮增量提示词产物
+
+PROMPT_ONLY / READY：[提示词](stitch/STITCH_PROMPT_DELTA.md)；入口[UI_PROMPT_DELTA_INDEX](../../UI_PROMPT_DELTA_INDEX.md)。本轮仅产物回链，不改变本页设计语义；未调用Stitch、未新增外部画布，旧稿仍STALE。

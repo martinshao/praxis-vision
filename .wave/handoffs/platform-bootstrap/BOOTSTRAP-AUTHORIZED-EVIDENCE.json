@@ -1,0 +1,180 @@
+{
+  "generator": "pnpm create better-t-stack@latest",
+  "generator_version": "3.43.0",
+  "generation_complete": true,
+  "install_complete": true,
+  "workspace_paths": [
+    "apps/web",
+    "packages/auth",
+    "packages/db",
+    "packages/ui",
+    "packages/config"
+  ],
+  "nested_git_created": false,
+  "generated_files": [
+    ".gitignore",
+    "README.md",
+    "apps/web/.env.schema",
+    "apps/web/.gitignore",
+    "apps/web/AGENTS.md",
+    "apps/web/bunfig.toml",
+    "apps/web/components.json",
+    "apps/web/next-env.d.ts",
+    "apps/web/next.config.ts",
+    "apps/web/package.json",
+    "apps/web/postcss.config.mjs",
+    "apps/web/src/app/api/auth/[...all]/route.ts",
+    "apps/web/src/app/dashboard/dashboard.tsx",
+    "apps/web/src/app/dashboard/page.tsx",
+    "apps/web/src/app/favicon.ico",
+    "apps/web/src/app/layout.tsx",
+    "apps/web/src/app/login/page.tsx",
+    "apps/web/src/app/page.tsx",
+    "apps/web/src/components/header.tsx",
+    "apps/web/src/components/loader.tsx",
+    "apps/web/src/components/mode-toggle.tsx",
+    "apps/web/src/components/providers.tsx",
+    "apps/web/src/components/sign-in-form.tsx",
+    "apps/web/src/components/sign-up-form.tsx",
+    "apps/web/src/components/theme-provider.tsx",
+    "apps/web/src/components/user-menu.tsx",
+    "apps/web/src/env.server.ts",
+    "apps/web/src/env.ts",
+    "apps/web/src/index.css",
+    "apps/web/src/lib/auth-client.ts",
+    "apps/web/src/services.ts",
+    "apps/web/tsconfig.json",
+    "biome.json",
+    "bts.jsonc",
+    "bunfig.toml",
+    "package.json",
+    "packages/auth/.gitignore",
+    "packages/auth/package.json",
+    "packages/auth/src/index.ts",
+    "packages/auth/tsconfig.json",
+    "packages/config/package.json",
+    "packages/config/tsconfig.base.json",
+    "packages/db/.env.schema",
+    "packages/db/.gitignore",
+    "packages/db/drizzle.config.ts",
+    "packages/db/package.json",
+    "packages/db/src/config.ts",
+    "packages/db/src/env.ts",
+    "packages/db/src/index.ts",
+    "packages/db/src/migrations/.gitkeep",
+    "packages/db/src/schema/auth.ts",
+    "packages/db/src/schema/index.ts",
+    "packages/db/tsconfig.json",
+    "packages/ui/components.json",
+    "packages/ui/package.json",
+    "packages/ui/postcss.config.mjs",
+    "packages/ui/src/components/attachment.tsx",
+    "packages/ui/src/components/bubble.tsx",
+    "packages/ui/src/components/button.tsx",
+    "packages/ui/src/components/card.tsx",
+    "packages/ui/src/components/checkbox.tsx",
+    "packages/ui/src/components/dropdown-menu.tsx",
+    "packages/ui/src/components/empty.tsx",
+    "packages/ui/src/components/input-group.tsx",
+    "packages/ui/src/components/input.tsx",
+    "packages/ui/src/components/label.tsx",
+    "packages/ui/src/components/marker.tsx",
+    "packages/ui/src/components/message-scroller.tsx",
+    "packages/ui/src/components/message.tsx",
+    "packages/ui/src/components/skeleton.tsx",
+    "packages/ui/src/components/sonner.tsx",
+    "packages/ui/src/components/textarea.tsx",
+    "packages/ui/src/components/tooltip.tsx",
+    "packages/ui/src/hooks/.gitkeep",
+    "packages/ui/src/lib/utils.ts",
+    "packages/ui/src/styles/globals.css",
+    "packages/ui/tsconfig.json",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "tsconfig.json"
+  ],
+  "env_creation": "first official generation authorized; existence checked only, contents not read",
+  "original_generated_check": "biome check --write .",
+  "bounded_check": "biome check apps packages package.json pnpm-workspace.yaml biome.json",
+  "dry_run_command": "pnpm create better-t-stack@latest . --frontend next --backend self --runtime none --database sqlite --orm drizzle --api none --auth better-auth --payments none --addons biome --examples none --db-setup none --template none --web-deploy none --server-deploy none --package-manager pnpm --directory-conflict merge --no-git --no-install --open none --manual-db --disable-analytics --no-render-title --dry-run --verbose",
+  "dry_run_result": {
+    "exit_code": 0,
+    "success": true,
+    "files_written": false
+  },
+  "generation_command": "pnpm create better-t-stack@latest . --frontend next --backend self --runtime none --database sqlite --orm drizzle --api none --auth better-auth --payments none --addons biome --examples none --db-setup none --template none --web-deploy none --server-deploy none --package-manager pnpm --directory-conflict merge --no-git --no-install --open none --manual-db --disable-analytics --no-render-title",
+  "generation_result": {
+    "exit_code": 0
+  },
+  "install_command": "pnpm install --fetch-timeout=300000 --network-concurrency=4",
+  "verification": {
+    "check-types": {
+      "command": "pnpm run check-types",
+      "exit_code": 0
+    },
+    "check": {
+      "command": "pnpm run check",
+      "exit_code": 0,
+      "files_checked": 63,
+      "fixes_applied": false
+    },
+    "build": {
+      "command": "pnpm run build",
+      "exit_code": 0,
+      "next_version": "16.3.5",
+      "routes": [
+        "/",
+        "/_not-found",
+        "/api/auth/[...all]",
+        "/dashboard",
+        "/login"
+      ]
+    },
+    "tests": "NOT_AVAILABLE"
+  },
+  "repairs": [
+    "download timeout: increased fetch-timeout to 300000 and concurrency 4",
+    "pnpm inserted esbuild allowBuilds placeholder after first failure; changed only esbuild to true",
+    "safe Biome formatting/import fixes within generated code only",
+    "InputGroup fieldset semantic; addon pointer focus instead of synthetic click; controls keep native keyboard focus",
+    "Label forwards explicit htmlFor and children",
+    "default empty Dashboard returns null; removed unused ModeToggle React import",
+    "check script read-only and bounded; Biome excludes .env/.env.* and node_modules",
+    "gitignore preserves original env rules and adds .next/out"
+  ],
+  "esbuild_script_review": {
+    "versions": [
+      "0.18.20",
+      "0.25.12",
+      "0.28.2"
+    ],
+    "install_script": "node install.js",
+    "purpose": "resolve installed platform optional binary; validate binary version; npm registry fallback only if absent",
+    "allowlist": "esbuild and generated sharp only",
+    "scripts": [
+      {
+        "version": "0.18.20",
+        "postinstall": "node install.js",
+        "script_sha256": "18f7ff75bb18580d3c63fcecee46b6d8c3872f01a46a86c2cddb87303378d281",
+        "validates_binary_version": true,
+        "npm_registry_fallback": true
+      },
+      {
+        "version": "0.25.12",
+        "postinstall": "node install.js",
+        "script_sha256": "10f6fa3644d8d23d066ff67b0ae449074e75884503546a9fedb667f1dcb9ade2",
+        "validates_binary_version": true,
+        "npm_registry_fallback": true
+      },
+      {
+        "version": "0.28.2",
+        "postinstall": "node install.js",
+        "script_sha256": "612294e278914443bdcf81cb17f54afec34dbdd2ebd999a6ee187912320cc315",
+        "validates_binary_version": true,
+        "npm_registry_fallback": true
+      }
+    ]
+  },
+  "env_artifacts": "generated env.ts interfaces/accessors contain no copied URL/key literals; .env not read/displayed; codegen/runtime loads development env normally",
+  "lockfile_present": true
+}

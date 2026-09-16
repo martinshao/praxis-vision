@@ -1,17 +1,19 @@
 # SweetWave 任务清单
 
+规划物料状态：READY
+
 ## TASK-001：核查并固定生图与提炼服务适配方案
 
 - [ ] TASK-001
-预估：1h
-任务类型：feature
-执行角色：platform-engineer
-涉及项目：apps/web
-风险等级：high
-QA 策略：required
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, workspace/TASK-001
-涉及范围：服务接入证据写 .wave/handoffs/studio/TASK-001.md；apps/web/src/contracts/provider 配置契约
+      预估：1h
+      任务类型：feature
+      执行角色：platform-engineer
+      涉及项目：apps/web
+      风险等级：high
+      QA 策略：required
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, workspace/TASK-001
+      涉及范围：服务接入证据写 .wave/handoffs/studio/TASK-001.md；apps/web/src/contracts/provider 配置契约
 
 ### 目标与输入
 
@@ -48,15 +50,15 @@ pnpm --filter @praxis/web test -- studio
 ## TASK-002：方案版本与最终提示词预览
 
 - [ ] TASK-002
-预估：1h
-任务类型：feature
-执行角色：backend-engineer
-涉及项目：apps/web
-风险等级：medium
-QA 策略：auto
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, workspace/TASK-002, characters/TASK-001, skills/TASK-002, photography/TASK-001
-涉及范围：apps/web/src/server/studio、db 方案表、api/plans、projects plans
+      预估：1h
+      任务类型：feature
+      执行角色：backend-engineer
+      涉及项目：apps/web
+      风险等级：medium
+      QA 策略：auto
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, workspace/TASK-002, characters/TASK-001, skills/TASK-002, photography/TASK-001
+      涉及范围：apps/web/src/server/studio、db 方案表、api/plans、projects plans
 
 ### 目标与输入
 
@@ -93,15 +95,15 @@ pnpm --filter @praxis/web test -- studio
 ## TASK-003：生成队列、私有结果与服务适配器
 
 - [ ] TASK-003
-预估：1h
-任务类型：feature
-执行角色：backend-engineer
-涉及项目：apps/web
-风险等级：high
-QA 策略：required
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, studio/TASK-001, studio/TASK-002
-涉及范围：apps/web/src/server/generation、provider；worker；db Job/Asset；api/generation、api/media
+      预估：1h
+      任务类型：feature
+      执行角色：backend-engineer
+      涉及项目：apps/web
+      风险等级：high
+      QA 策略：required
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, studio/TASK-001, studio/TASK-002
+      涉及范围：apps/web/src/server/generation、provider；worker；db Job/Asset；api/generation、api/media
 
 ### 目标与输入
 
@@ -138,15 +140,15 @@ pnpm --filter @praxis/web test -- studio
 ## TASK-004：专业与快捷创作界面
 
 - [ ] TASK-004
-预估：1h
-任务类型：feature
-执行角色：frontend-engineer
-涉及项目：apps/web
-风险等级：medium
-QA 策略：auto
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, studio/TASK-003, characters/TASK-002, skills/TASK-004, photography/TASK-002
-涉及范围：apps/web/src/features/studio；src/app/studio、quick
+      预估：1h
+      任务类型：feature
+      执行角色：frontend-engineer
+      涉及项目：apps/web
+      风险等级：medium
+      QA 策略：auto
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, studio/TASK-003, characters/TASK-002, skills/TASK-004, photography/TASK-002
+      涉及范围：apps/web/src/features/studio；src/app/studio、quick
 
 ### 目标与输入
 
@@ -183,15 +185,15 @@ pnpm --filter @praxis/web test -- studio
 ## TASK-005：生成恢复与效果能力复验
 
 - [ ] TASK-005
-预估：1h
-任务类型：feature
-执行角色：qa-engineer
-涉及项目：apps/web
-风险等级：high
-QA 策略：required
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, studio/TASK-004
-涉及范围：apps/web/tests/studio、e2e；.wave/qa/studio；不改业务以伪造通过
+      预估：1h
+      任务类型：feature
+      执行角色：qa-engineer
+      涉及项目：apps/web
+      风险等级：high
+      QA 策略：required
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, studio/TASK-004
+      涉及范围：apps/web/tests/studio、e2e；.wave/qa/studio；不改业务以伪造通过
 
 ### 目标与输入
 
@@ -222,7 +224,6 @@ pnpm --filter @praxis/web test -- studio
 ### 风险与恢复
 
 重复提交 / 超时 / 重启 / 存储失败；实际虚构人物效果按 PRD 记录，费用条件未达需暂停。失败保留输入和已成功数据，先定位原因；不得通过吞掉错误或自动盲重发生成来通过。
-
 
 ## 标记
 

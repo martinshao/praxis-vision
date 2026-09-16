@@ -1,0 +1,23 @@
+[
+  "/",
+  "/projects",
+  "/projects/:projectId",
+  "/archive",
+  "/characters",
+  "/characters/new",
+  "/characters/:characterId",
+  "/skills",
+  "/skills/new",
+  "/skills/:skillId",
+  "/styles",
+  "/styles/new",
+  "/styles/:styleId",
+  "/studio/:projectId",
+  "/quick",
+  "/works",
+  "/works/:workId",
+  "/prompts",
+  "/prompts/new",
+  "/prompts/:promptId",
+  "/sign-in"
+]

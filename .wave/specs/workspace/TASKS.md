@@ -1,17 +1,19 @@
 # SweetWave 任务清单
 
+规划物料状态：READY
+
 ## TASK-001：建立单所有者会话与领域持久化基础
 
-- [ ] TASK-001
-预估：1h
-任务类型：feature
-执行角色：backend-engineer
-涉及项目：apps/web
-风险等级：high
-QA 策略：required
-并行策略：serial
-依赖：app-shell/APP-SHELL-001
-涉及范围：apps/web/src/server/auth、db；src/app/api/auth；scripts 初始化本人账户
+- [x] TASK-001
+      预估：1h
+      任务类型：feature
+      执行角色：backend-engineer
+      涉及项目：apps/web
+      风险等级：high
+      QA 策略：required
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001
+      涉及范围：apps/web/src/server/auth、db；src/app/api/auth；scripts 初始化本人账户
 
 ### 目标与输入
 
@@ -48,15 +50,15 @@ pnpm --filter @praxis/web test -- workspace
 ## TASK-002：项目与归档服务契约
 
 - [ ] TASK-002
-预估：1h
-任务类型：feature
-执行角色：backend-engineer
-涉及项目：apps/web
-风险等级：high
-QA 策略：required
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, workspace/TASK-001
-涉及范围：apps/web/src/server/workspace、src/app/api/projects、archive、contracts
+      预估：1h
+      任务类型：feature
+      执行角色：backend-engineer
+      涉及项目：apps/web
+      风险等级：high
+      QA 策略：required
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, workspace/TASK-001
+      涉及范围：apps/web/src/server/workspace、src/app/api/projects、archive、contracts
 
 ### 目标与输入
 
@@ -93,15 +95,15 @@ pnpm --filter @praxis/web test -- workspace
 ## TASK-003：项目、登录与归档界面
 
 - [ ] TASK-003
-预估：1h
-任务类型：feature
-执行角色：frontend-engineer
-涉及项目：apps/web
-风险等级：medium
-QA 策略：auto
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, workspace/TASK-002
-涉及范围：apps/web/src/features/workspace；src/app 登录 / 项目 / 归档页面
+      预估：1h
+      任务类型：feature
+      执行角色：frontend-engineer
+      涉及项目：apps/web
+      风险等级：medium
+      QA 策略：auto
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, workspace/TASK-002
+      涉及范围：apps/web/src/features/workspace；src/app 登录 / 项目 / 归档页面
 
 ### 目标与输入
 
@@ -132,7 +134,6 @@ pnpm --filter @praxis/web test -- workspace
 ### 风险与恢复
 
 登录进入私有工作区、新建再打开、归档恢复、失败保留。失败保留输入和已成功数据，先定位原因；不得通过吞掉错误或自动盲重发生成来通过。
-
 
 ## 标记
 

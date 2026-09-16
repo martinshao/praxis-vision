@@ -35,4 +35,13 @@ MODULE.md、DESIGN.md、INIT / PRD v3。
 
 ## 外部与跨模块
 
-Stitch：DISABLED / NOT_REQUESTED；Figma 未提供。不生成 HTML 或图片原型。共享视觉变量由 app-shell/UI.md 汇总，业务交互由本模块维护。
+Stitch：MCP_GENERATE；设计系统已由用户确认。私有项目：[praxis-vision · INIT](https://stitch.withgoogle.com/projects/5480617662433312349)。逐屏 ID、工具描述与核对结果见 [STITCH_RESULT.md](stitch/STITCH_RESULT.md)，全局入口见 [STITCH_DESIGN_INDEX.md](../../STITCH_DESIGN_INDEX.md)。GENERATED 不等同人工批准；当前仅默认桌面稿。共享视觉变量由 app-shell/UI.md 汇总，业务交互由本模块维护。
+
+## PRD v4 必要增量（原功能内容保留）
+
+来源：INIT PRD v4 CONFIRMED；新增F-013–F-015 / AC-013–AC-015，不重写已有能力。详细数据、接口、限值、试用与封面规则见 ../prompts/ARCH.md、../prompts/SPEC.md及共享CONTRACTS。
+ShotPlanVersion和GenerationJob冻结promptOrigin与实际提交文本/适配遗漏/输入引用（详见prompts/ARCH）；旧字段nullable。POST /api/prompts/:id/reuse由prompts协调调用现有草稿创建，不直接生图；studio依据共享schema校验引用owner/归档/版本及portrait范围，无studio→prompts服务导入。快捷草稿显示来源版本与unsupported未应用项，保留原文；替换须确认和expectedDraftVersion。最终预览/显式提交仍走现有任务接口，不静默忽略unsupported或覆盖身份。任务完成后Prompt详情查询已有job，不另建队列/重复provider调用。增量由prompts/TASK-001、TASK-004、TASK-005追加，原任务保留。
+
+## 本轮增量提示词产物
+
+PROMPT_ONLY / READY：[提示词](stitch/STITCH_PROMPT_DELTA.md)；入口[UI_PROMPT_DELTA_INDEX](../../UI_PROMPT_DELTA_INDEX.md)。本轮仅产物回链，不改变本页设计语义；未调用Stitch、未新增外部画布，旧稿仍STALE。

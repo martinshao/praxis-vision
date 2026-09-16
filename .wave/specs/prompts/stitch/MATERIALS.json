@@ -1,0 +1,32 @@
+{
+  "time": "2026-09-15T20:18:14.278343+08:00",
+  "state": "GENERATED / NOT_REVIEWED",
+  "edit": "NOT_VERIFIED",
+  "outputs": {
+    "specs/prompts/stitch/generation-input.json": "9497c2cc65d8bb7814cc4e6b7c351eaf0458670744c9ebe235cbfe30d04c3227",
+    "specs/prompts/stitch/STITCH_RESULT.md": "424604cc51075cb77495d1e3883c0769e55b6e36be73622f343901c44697e4ba",
+    "specs/prompts/stitch/GENERATED_SCREENS.json": "2edde0ec944ecc741f302fadab92a3da87a0ad4feff3bcbb6d2416bc6528a322",
+    "specs/prompts/stitch/GENERATION_BASELINE.json": "7b8c65f3270afc7ed60cb00e4f1ed3f292fd83f0fe47175fa2e981c5d85d3149",
+    "specs/prompts/stitch/SCREEN_3.json": "fde3306eec8f1adc688320d98737a8a6f5594d4237caba7a0a6813f627d129ed",
+    "specs/prompts/stitch/POST_EDIT_1.json": "1bf2d455b5d39b42e41abbffeb8982cd599f9d5b4dc196f716987be7ba84e98a",
+    "specs/prompts/stitch/PREFLIGHT_1.json": "d11ba82f9421cb2905ea0cdb49fe578bda68568bc5e7bdbc71781b27b7145865",
+    "specs/prompts/stitch/REQUEST_3.json": "76d82bf0e555d108fee14f48124102148bdb097fda8b65285ef318ccf502f01c",
+    "specs/prompts/stitch/REQUEST_2.json": "d15c3491f5e3d2c52dace71a6f1db9d9f1ddb3dfa42b0c25a9461de5c631d697",
+    "specs/prompts/stitch/PREFLIGHT_0.json": "91b6a3d3486778980da00d4264b3f3077a70338c055ed93b3c5eafe88674cfdf",
+    "specs/prompts/stitch/SCREEN_2.json": "3dfecb4f28aecac9879530f56e9e6f1d6ccb1a1eb007b058f57c1a5a65c83c55",
+    "specs/prompts/stitch/RESPONSE_1.json": "667e80ebcfe5f99e49453cf608f296ed2e41a7f5e8582854cd5bd42517d95580",
+    "specs/prompts/stitch/STITCH_PROMPT.md": "a4fe6c6f0c79da614ac62740996d2a66c411a8d6fe73f9e5e5b0450c463e4cf9",
+    "specs/prompts/stitch/POST_EDIT_3.json": "d1f8efd66bff0148577387694186771062092e4a244827e02443fee4a10635bb",
+    "specs/prompts/stitch/SCREEN_1.json": "5d161a70e5f2924781ea18d56e9d821618de4975e6f2716a25a0842fe31162a2",
+    "specs/prompts/stitch/RESPONSE_2.json": "9be2f0885bf51c9a20ddb141766a14978005ec2b7f813b214a6b2dada8a56a1e",
+    "specs/prompts/stitch/EDIT_REQUEST.json": "0e7147a67c75747576330f54c52ed4c13aa43ae91964bd21fa7b211b5f18fb5e",
+    "specs/prompts/stitch/POST_LIST.json": "2abff55ed4848e022cd272a885ba70c24b0386b9e43e7fa77dea763a7392fe16",
+    "specs/prompts/stitch/REQUEST_1.json": "ff95912fa3d4d8289d76018f241a314b4a4a9d04e25ddc991cf057b8aa753ced",
+    "specs/prompts/stitch/PREFLIGHT_2.json": "91f7c3516fe499e71573c0c5772c449c799dc16d42aacbfbf888e136f59a79bc",
+    "specs/prompts/stitch/RESPONSE_3.json": "052b9ab88e2794d3535dab1ad0b682554f8cf50caa413dc401bd269d47392c34",
+    "specs/prompts/stitch/POST_EDIT_2.json": "7160ddd74c25f72d1207bae4cb852bb48f34ee5e1d4374fc8963a6b938edda93",
+    "specs/prompts/stitch/VERIFICATION.json": "4ae28ed8441a646e9160cc4a8b921d89d3504361d0b04bca79be7f0155a42c19",
+    "specs/prompts/stitch/EDIT_RESPONSE.json": "76601034bf76f021a223d048271c26a8961943fb3043c38290c216edd0f9d3d1"
+  },
+  "protectedBaseline": "unchanged"
+}

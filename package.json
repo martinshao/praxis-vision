@@ -1,0 +1,40 @@
+{
+	"name": "praxis-vision",
+	"private": true,
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	],
+	"type": "module",
+	"scripts": {
+		"dev": "pnpm --filter @praxis/web dev",
+		"build": "pnpm --filter @praxis/web build",
+		"check-types": "pnpm -r check-types",
+		"dev:web": "pnpm --filter @praxis/web dev",
+		"db:push": "pnpm --filter @praxis-vision/db db:push",
+		"db:studio": "pnpm --filter @praxis-vision/db db:studio",
+		"db:generate": "pnpm --filter @praxis-vision/db db:generate",
+		"db:migrate": "node --experimental-strip-types apps/web/scripts/private-workspace.mjs migrate",
+		"db:local": "pnpm --filter @praxis-vision/db db:local",
+		"env:generate": "varlock codegen --path ./apps/web/ && varlock codegen --path ./packages/db/ && biome format --write apps/web/src/env.ts packages/db/src/env.ts",
+		"postinstall": "varlock codegen --path ./apps/web/ && varlock codegen --path ./packages/db/ && biome format --write apps/web/src/env.ts packages/db/src/env.ts",
+		"check": "pnpm format:generated && biome check apps packages package.json pnpm-workspace.yaml biome.json",
+		"typecheck": "pnpm --filter @praxis/web typecheck",
+		"lint": "pnpm check",
+		"test": "pnpm --filter @praxis/web test",
+		"test:e2e": "pnpm --filter @praxis/web test:e2e",
+		"format:generated": "biome format --write apps/web/src/env.ts packages/db/src/env.ts",
+		"owner:init": "node --experimental-strip-types apps/web/scripts/private-workspace.mjs initialize-owner"
+	},
+	"dependencies": {
+		"zod": "catalog:"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.5.12",
+		"@praxis-vision/config": "workspace:*",
+		"@types/node": "catalog:",
+		"typescript": "catalog:",
+		"varlock": "catalog:"
+	},
+	"packageManager": "pnpm@11.5.2"
+}

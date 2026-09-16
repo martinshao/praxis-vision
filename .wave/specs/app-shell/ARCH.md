@@ -29,3 +29,8 @@
 ## 检查
 
 APP-SHELL-001 唯一 scaffold；建立可运行基础 dev / typecheck / lint / test / build 和 e2e scripts，空阶段测试以导航与路由检查为主。技术 auth / database 来自 bootstrap；私有规则与领域 schema 在 workspace 任务添加，worker 在 studio/TASK-003 添加。根 scripts 必须对应真实文件，不写吞掉失败的命令。
+
+## PRD v4 必要增量（原功能内容保留）
+
+来源：INIT PRD v4 CONFIRMED；新增F-013–F-015 / AC-013–AC-015，不重写已有能力。详细数据、接口、限值、试用与封面规则见 ../prompts/ARCH.md、../prompts/SPEC.md及共享CONTRACTS。
+新增/prompts、/prompts/new、/prompts/:promptId三页面壳；对应Next app/prompts/page.tsx、new/page.tsx、[promptId]/page.tsx。主导航为项目、人物、Prompt、摄影技能、摄影风格、作品；快捷生成常驻，归档次级。详情面包屑Prompt→[名称]，无权限/404回本人库。APP-SHELL-001增加这些导航和占位壳，仅标题/说明/未实现区域，不写真实表单、API、任务调用或Mock。具体Prompt业务在prompts/TASK-005。

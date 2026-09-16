@@ -1,17 +1,19 @@
 # 应用壳任务清单
 
-## APP-SHELL-001：扩展 Better-T-Stack 工程的全部页面壳
+规划物料状态：READY
 
-- [ ] APP-SHELL-001
-预估：1h
-任务类型：scaffold
-执行角色：frontend-engineer
-涉及项目：apps/web
-风险等级：medium
-QA 策略：required
-并行策略：serial
-依赖：platform-bootstrap/PLATFORM-BOOTSTRAP-001
-涉及范围：apps/web、packages/ui、根 scripts 别名、所有页面占位与导航
+## APP-SHELL-001 [CHANGED]：扩展 Better-T-Stack 工程的全部页面壳
+
+- [x] APP-SHELL-001
+      预估：1h
+      任务类型：scaffold
+      执行角色：frontend-engineer
+      涉及项目：apps/web
+      风险等级：medium
+      QA 策略：required
+      并行策略：serial
+      依赖：platform-bootstrap/PLATFORM-BOOTSTRAP-001
+      涉及范围：apps/web、packages/ui、根 scripts 别名、所有页面占位与导航
 
 ### 输入
 
@@ -40,3 +42,7 @@ pnpm build
 ```
 
 命令在本任务真实建立后运行，当前仅规划。工具或依赖失败保存检查点；不得删除 .wave 或重新生成工程。
+
+## APP-SHELL-001 v4 追加验收
+
+新增/prompts、/prompts/new、/prompts/:promptId三个标题/说明/未实现壳；导航Prompt、面包屑、static new优先、404与窄屏/键盘入口。原依赖platform-bootstrap/PLATFORM-BOOTSTRAP-001和scaffold角色/门禁保留；无新增scaffold任务，无API/业务表单/Mock。

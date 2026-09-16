@@ -35,4 +35,13 @@ MODULE.md、DESIGN.md、INIT / PRD v3。
 
 ## 外部与跨模块
 
-Stitch：DISABLED / NOT_REQUESTED；Figma 未提供。不生成 HTML 或图片原型。共享视觉变量由 app-shell/UI.md 汇总，业务交互由本模块维护。
+Stitch：MCP_GENERATE；设计系统已由用户确认。私有项目：[praxis-vision · INIT](https://stitch.withgoogle.com/projects/5480617662433312349)。逐屏 ID、工具描述与核对结果见 [STITCH_RESULT.md](stitch/STITCH_RESULT.md)，全局入口见 [STITCH_DESIGN_INDEX.md](../../STITCH_DESIGN_INDEX.md)。GENERATED 不等同人工批准；当前仅默认桌面稿。共享视觉变量由 app-shell/UI.md 汇总，业务交互由本模块维护。
+
+## PRD v4 必要增量（原功能内容保留）
+
+来源：INIT PRD v4 CONFIRMED；新增F-013–F-015 / AC-013–AC-015，不重写已有能力。详细数据、接口、限值、试用与封面规则见 ../prompts/ARCH.md、../prompts/SPEC.md及共享CONTRACTS。
+GET /api/works/:id及安全config导出可包含实际存在的promptOrigin；无来源旧Work不反推。作品详情“保存为Prompt”调用POST /api/prompts/from-work；原作绑定savedWork规则在prompts/ARCH，旧job不可回填promptOrigin。版本/模型/实际文本取任务快照；封面仅引用本人asset，通过studio私有media接口；已有封面对应Work归档仍标状态并保留。作品页来源链接及from-work确认由prompts/TASK-004、TASK-005实现，旧TASK-001/002不重做；新增QA为prompts/TASK-006，旧闭环QA正文保留。
+
+## 本轮增量提示词产物
+
+PROMPT_ONLY / READY：[提示词](stitch/STITCH_PROMPT_DELTA.md)；入口[UI_PROMPT_DELTA_INDEX](../../UI_PROMPT_DELTA_INDEX.md)。本轮仅产物回链，不改变本页设计语义；未调用Stitch、未新增外部画布，旧稿仍STALE。

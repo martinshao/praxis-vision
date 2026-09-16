@@ -1,0 +1,24 @@
+{
+	"name": "@praxis-vision/auth",
+	"type": "module",
+	"exports": {
+		".": {
+			"default": "./src/index.ts"
+		},
+		"./*": {
+			"default": "./src/*.ts"
+		}
+	},
+	"scripts": {
+		"check-types": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@praxis-vision/db": "workspace:*",
+		"better-auth": "catalog:",
+		"zod": "catalog:"
+	},
+	"devDependencies": {
+		"@praxis-vision/config": "workspace:*",
+		"typescript": "catalog:"
+	}
+}

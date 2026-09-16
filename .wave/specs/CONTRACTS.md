@@ -64,3 +64,13 @@ POST /skills/:skillId/preview 接收 versionId、params、currentPlan，返回 p
 ## 实现位置与 worker lease
 
 共享 schema / 迁移使用 packages/db，共享认证适配使用 packages/auth，Web 注入本地 SQLite 配置。GenerationJob 另含 leaseOwner、leaseExpiresAt、attempt、providerRequestId?、errorCode?、storageState；原子领取 queued job 后写 lease，持续心跳。lease 失效且外部调用已开始时进入 unknown，禁止重新派发；仅本地持久化失败且结果字节仍可恢复时重试保存，否则标记明确错误。私有 media 路由归 studio 所有。
+
+## PRD v4 Prompt 增量契约
+
+权威字段与API：specs/prompts/ARCH.md（本目录相对prompts/ARCH.md）。Prompt/Source/Version/Trial/Cover继承owner、事务、分页、乐观锁与仅归档规则。新增/api/prompts CRUD/versions/sources/trials/cover/reuse/from-work及archive/restore；GET /api/archive新增kind=prompt，skills/extract新增sourcePromptVersionId。source URL只记录，不请求。
+
+ShotPlanVersion/GenerationJob冻结nullable promptOrigin和actualSubmittedText/adaptation，SkillVersion追加nullable sourcePromptVersionId；Work读job快照。savedWork关联只由from-work绑定服务器sourceWorkId和同owner/job/actualTextHash，旧job不回填来源。
+
+DUPLICATE_PROMPT 409为非强制合并提示；正常VERSION_CONFLICT保持。Prompt原文textHash非unique索引以允许用户另存。Topic不是生图模式：仅portrait可reuse/submit，landscape/illustration/other可收藏与复制。浏览/保存/封面不触发生成/抓取/辅助提炼。unsupported负面词/参数保原文、明确遗漏，显式确认适配后的最终稿才提交。字段限值与幂等规则详见prompts/ARCH，消费者不能另造契约。
+
+Prompt快捷草稿增量：POST /api/quick/drafts及studio.createQuickDraft只创建独立quick草稿，optional projectId；无项目时事务建立本人快捷容器。精确字段与owner/来源/替换规则以prompts/ARCH为准，归prompts/TASK-004集成，不新建生成服务。

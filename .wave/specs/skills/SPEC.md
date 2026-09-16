@@ -53,3 +53,8 @@ DESIGN / UI 的 loading、empty、validation、success、error、unauthorized、
 - UI：当前流程与失败保留；有标签、键盘焦点、窄屏无页面溢出。
 - 浏览器联调：完成对应 PRD AC；测试替身明确标为测试，生成实际效果另行按 PRD 实验评价。
 - 通过条件：对应 AC 可观察行为和最小相关检查通过，数据安全与任务恢复无未解决问题；不会把文档生成计入功能完成。
+
+## PRD v4 必要增量（原功能内容保留）
+
+来源：INIT PRD v4 CONFIRMED；新增F-013–F-015 / AC-013–AC-015，不重写已有能力。详细数据、接口、限值、试用与封面规则见 ../prompts/ARCH.md、../prompts/SPEC.md及共享CONTRACTS。
+POST /api/skills/extract追加sourcePromptVersionId?；只允许本人未归档Prompt的指定版本，original pastedText和来源必须与选择一致，改稿作为编辑内容明示；明确预览发送内容并用户确认才调用辅助服务。独立技能草稿保存sourcePromptVersionId?，需人工校正，默认待试用，不能继承Prompt结果评价。详情显示来源链接/prompts/:promptId?versionId=...；不改原机位规则/单技能槽位。由prompts/TASK-004、TASK-005追加，旧技能任务正文保留。

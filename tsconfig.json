@@ -1,0 +1,3 @@
+{
+  "extends": "@praxis-vision/config/tsconfig.base.json"
+}

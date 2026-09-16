@@ -18,20 +18,20 @@
 
 ## Stack 选择
 
-| 维度 | 选择 | 来源 / 理由 | 已确认 |
-|---|---|---|---|
-| frontend | next | 单一 Web 工作台 | 是，授权推荐 |
-| backend | self | HTTP API 在 apps/web，减少独立服务 | 是，授权推荐 |
-| runtime | none | CLI self 强制；实际 Node.js Web / worker | 是，授权推荐 |
-| database | sqlite | 个人单实例私有持久化 | 是，授权推荐 |
-| ORM | drizzle | 类型与版本模型 | 是，授权推荐 |
-| API | none | 不额外 RPC；业务 HTTP 契约独立 | 是，授权推荐 |
-| auth | better-auth | 私有会话基础，所有者规则另实现 | 是，授权推荐 |
-| payments | none | 无支付需求 | 是 |
-| addons | biome | 基础 lint / format | 是，授权推荐 |
-| examples | none | 不生成无关业务样例 | 是 |
-| db-setup / template | none / none | 本地手工配置，无外部托管 | 是 |
-| deployment | web none / server none | 当前无发布范围 | 是 |
+| 维度                | 选择                   | 来源 / 理由                              | 已确认       |
+| ------------------- | ---------------------- | ---------------------------------------- | ------------ |
+| frontend            | next                   | 单一 Web 工作台                          | 是，授权推荐 |
+| backend             | self                   | HTTP API 在 apps/web，减少独立服务       | 是，授权推荐 |
+| runtime             | none                   | CLI self 强制；实际 Node.js Web / worker | 是，授权推荐 |
+| database            | sqlite                 | 个人单实例私有持久化                     | 是，授权推荐 |
+| ORM                 | drizzle                | 类型与版本模型                           | 是，授权推荐 |
+| API                 | none                   | 不额外 RPC；业务 HTTP 契约独立           | 是，授权推荐 |
+| auth                | better-auth            | 私有会话基础，所有者规则另实现           | 是，授权推荐 |
+| payments            | none                   | 无支付需求                               | 是           |
+| addons              | biome                  | 基础 lint / format                       | 是，授权推荐 |
+| examples            | none                   | 不生成无关业务样例                       | 是           |
+| db-setup / template | none / none            | 本地手工配置，无外部托管                 | 是           |
+| deployment          | web none / server none | 当前无发布范围                           | 是           |
 
 ## 实时检查与证据
 

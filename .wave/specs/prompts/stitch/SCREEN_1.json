@@ -1,0 +1,24 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"name\":\"projects/5480617662433312349/screens/3ccc687ddbd34d41a9ac162a0e1c0d14\",\"title\":\"Prompt 库 · 桌面端默认状态\",\"screenshot\":{\"name\":\"projects/5480617662433312349/files/7932080dd3754dfc8195c053e7036e9c\",\"downloadUrl\":\"https://lh3.googleusercontent.com/aida/AEtjO1UQwAi0JF9j_yc4jCrJu0ihuCDh0paMOel2o_yq23eyoMcjkS-BlhLRo718Qd04PiTOLM0nAeImY6W8noglS_KiSTLN2lEd1KYvfjg0iTzNluOh77sTNPaVfAeQASsn699qHzMymGnLncO2cgcSIXjX5J1BAWCLB3oEsZxniEjtZjVhEknPqgp63JJCux4FqAf-uOIe2OfPN1iEBwivn5E3QZ7ywOjRh5D2crM8MfMQNBU8HUNt1IEL7ec\"},\"htmlCode\":{\"name\":\"projects/5480617662433312349/files/ebf3298a4b28485fb8cbc6f36b676c5a\",\"downloadUrl\":\"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2MwODRjZjkyYjg2YzQyZjY5OWZhMGIwMzdlODIxY2MwEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242\",\"mimeType\":\"text/html\"},\"width\":\"2560\",\"height\":\"2048\",\"deviceType\":\"DESKTOP\"}"
+    }
+  ],
+  "structuredContent": {
+    "deviceType": "DESKTOP",
+    "height": "2048",
+    "htmlCode": {
+      "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2MwODRjZjkyYjg2YzQyZjY5OWZhMGIwMzdlODIxY2MwEgsSBxC607a_mhYYAZIBIwoKcHJvamVjdF9pZBIVQhM1NDgwNjE3NjYyNDMzMzEyMzQ5&filename=&opi=96797242",
+      "mimeType": "text/html",
+      "name": "projects/5480617662433312349/files/ebf3298a4b28485fb8cbc6f36b676c5a"
+    },
+    "name": "projects/5480617662433312349/screens/3ccc687ddbd34d41a9ac162a0e1c0d14",
+    "screenshot": {
+      "downloadUrl": "https://lh3.googleusercontent.com/aida/AEtjO1UQwAi0JF9j_yc4jCrJu0ihuCDh0paMOel2o_yq23eyoMcjkS-BlhLRo718Qd04PiTOLM0nAeImY6W8noglS_KiSTLN2lEd1KYvfjg0iTzNluOh77sTNPaVfAeQASsn699qHzMymGnLncO2cgcSIXjX5J1BAWCLB3oEsZxniEjtZjVhEknPqgp63JJCux4FqAf-uOIe2OfPN1iEBwivn5E3QZ7ywOjRh5D2crM8MfMQNBU8HUNt1IEL7ec",
+      "name": "projects/5480617662433312349/files/7932080dd3754dfc8195c053e7036e9c"
+    },
+    "title": "Prompt 库 · 桌面端默认状态",
+    "width": "2560"
+  }
+}

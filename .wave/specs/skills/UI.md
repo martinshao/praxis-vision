@@ -36,4 +36,13 @@ MODULE.md、DESIGN.md、INIT / PRD v3。
 
 ## 外部与跨模块
 
-Stitch：DISABLED / NOT_REQUESTED；Figma 未提供。不生成 HTML 或图片原型。共享视觉变量由 app-shell/UI.md 汇总，业务交互由本模块维护。
+Stitch：MCP_GENERATE；设计系统已由用户确认。私有项目：[praxis-vision · INIT](https://stitch.withgoogle.com/projects/5480617662433312349)。逐屏 ID、工具描述与核对结果见 [STITCH_RESULT.md](stitch/STITCH_RESULT.md)，全局入口见 [STITCH_DESIGN_INDEX.md](../../STITCH_DESIGN_INDEX.md)。GENERATED 不等同人工批准；当前仅默认桌面稿。共享视觉变量由 app-shell/UI.md 汇总，业务交互由本模块维护。
+
+## PRD v4 必要增量（原功能内容保留）
+
+来源：INIT PRD v4 CONFIRMED；新增F-013–F-015 / AC-013–AC-015，不重写已有能力。详细数据、接口、限值、试用与封面规则见 ../prompts/ARCH.md、../prompts/SPEC.md及共享CONTRACTS。
+POST /api/skills/extract追加sourcePromptVersionId?；只允许本人未归档Prompt的指定版本，original pastedText和来源必须与选择一致，改稿作为编辑内容明示；明确预览发送内容并用户确认才调用辅助服务。独立技能草稿保存sourcePromptVersionId?，需人工校正，默认待试用，不能继承Prompt结果评价。详情显示来源链接/prompts/:promptId?versionId=...；不改原机位规则/单技能槽位。由prompts/TASK-004、TASK-005追加，旧技能任务正文保留。
+
+## 本轮增量提示词产物
+
+PROMPT_ONLY / READY：[提示词](stitch/STITCH_PROMPT_DELTA.md)；入口[UI_PROMPT_DELTA_INDEX](../../UI_PROMPT_DELTA_INDEX.md)。本轮仅产物回链，不改变本页设计语义；未调用Stitch、未新增外部画布，旧稿仍STALE。

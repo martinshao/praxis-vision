@@ -1,17 +1,19 @@
 # SweetWave 任务清单
 
+规划物料状态：READY
+
 ## TASK-001：技能版本与受限参数规则存储
 
 - [ ] TASK-001
-预估：1h
-任务类型：feature
-执行角色：backend-engineer
-涉及项目：apps/web
-风险等级：high
-QA 策略：required
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, workspace/TASK-002
-涉及范围：apps/web/src/server/skills、contracts 技能 schema、db、api/skills
+      预估：1h
+      任务类型：feature
+      执行角色：backend-engineer
+      涉及项目：apps/web
+      风险等级：high
+      QA 策略：required
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, workspace/TASK-002
+      涉及范围：apps/web/src/server/skills、contracts 技能 schema、db、api/skills
 
 ### 目标与输入
 
@@ -48,15 +50,15 @@ pnpm --filter @praxis/web test -- skills
 ## TASK-002：机位技能预览与冲突引擎
 
 - [ ] TASK-002
-预估：1h
-任务类型：feature
-执行角色：backend-engineer
-涉及项目：apps/web
-风险等级：medium
-QA 策略：auto
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, skills/TASK-001
-涉及范围：apps/web/src/server/skills 规则 / 模板 / preview；api/skills preview
+      预估：1h
+      任务类型：feature
+      执行角色：backend-engineer
+      涉及项目：apps/web
+      风险等级：medium
+      QA 策略：auto
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, skills/TASK-001
+      涉及范围：apps/web/src/server/skills 规则 / 模板 / preview；api/skills preview
 
 ### 目标与输入
 
@@ -93,15 +95,15 @@ pnpm --filter @praxis/web test -- skills
 ## TASK-003：辅助提炼与验证记录服务
 
 - [ ] TASK-003
-预估：1h
-任务类型：feature
-执行角色：backend-engineer
-涉及项目：apps/web
-风险等级：high
-QA 策略：required
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, skills/TASK-001, studio/TASK-001
-涉及范围：apps/web/src/server/skills extraction / trials；api；文字服务适配器
+      预估：1h
+      任务类型：feature
+      执行角色：backend-engineer
+      涉及项目：apps/web
+      风险等级：high
+      QA 策略：required
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, skills/TASK-001, studio/TASK-001
+      涉及范围：apps/web/src/server/skills extraction / trials；api；文字服务适配器
 
 ### 目标与输入
 
@@ -138,15 +140,15 @@ pnpm --filter @praxis/web test -- skills
 ## TASK-004：技能库、编辑与参数试用界面
 
 - [ ] TASK-004
-预估：1h
-任务类型：feature
-执行角色：frontend-engineer
-涉及项目：apps/web
-风险等级：medium
-QA 策略：auto
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, skills/TASK-002, skills/TASK-003
-涉及范围：apps/web/src/features/skills；src/app/skills
+      预估：1h
+      任务类型：feature
+      执行角色：frontend-engineer
+      涉及项目：apps/web
+      风险等级：medium
+      QA 策略：auto
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, skills/TASK-002, skills/TASK-003
+      涉及范围：apps/web/src/features/skills；src/app/skills
 
 ### 目标与输入
 
@@ -177,7 +179,6 @@ pnpm --filter @praxis/web test -- skills
 ### 风险与恢复
 
 粘贴提炼校正、查找、参数预览、版本 / 未验证标签。失败保留输入和已成功数据，先定位原因；不得通过吞掉错误或自动盲重发生成来通过。
-
 
 ## 标记
 

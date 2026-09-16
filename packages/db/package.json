@@ -1,0 +1,36 @@
+{
+	"name": "@praxis-vision/db",
+	"type": "module",
+	"exports": {
+		".": {
+			"default": "./src/index.ts"
+		},
+		"./*": {
+			"default": "./src/*.ts"
+		},
+		"./schema": {
+			"default": "./src/schema/index.ts"
+		}
+	},
+	"scripts": {
+		"check-types": "tsc --noEmit",
+		"db:local": "turso dev --db-file local.db",
+		"db:push": "drizzle-kit push",
+		"db:generate": "drizzle-kit generate",
+		"db:migrate:deploy": "node --experimental-strip-types ../../apps/web/scripts/private-workspace.mjs migrate",
+		"db:studio": "drizzle-kit studio",
+		"db:migrate": "node --experimental-strip-types ../../apps/web/scripts/private-workspace.mjs migrate"
+	},
+	"dependencies": {
+		"@libsql/client": "catalog:",
+		"drizzle-orm": "^0.45.2",
+		"libsql": "catalog:",
+		"zod": "catalog:"
+	},
+	"devDependencies": {
+		"@praxis-vision/config": "workspace:*",
+		"drizzle-kit": "^0.31.10",
+		"typescript": "catalog:",
+		"varlock": "catalog:"
+	}
+}

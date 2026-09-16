@@ -3,15 +3,15 @@
 ## TASK-001：人物与不可变身份版本服务
 
 - [ ] TASK-001
-预估：1h
-任务类型：feature
-执行角色：backend-engineer
-涉及项目：apps/web
-风险等级：high
-QA 策略：required
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, workspace/TASK-002
-涉及范围：apps/web/src/server/characters、db 人物表、api/characters
+      预估：1h
+      任务类型：feature
+      执行角色：backend-engineer
+      涉及项目：apps/web
+      风险等级：high
+      QA 策略：required
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, workspace/TASK-002
+      涉及范围：apps/web/src/server/characters、db 人物表、api/characters
 
 ### 目标与输入
 
@@ -48,15 +48,15 @@ pnpm --filter @praxis/web test -- characters
 ## TASK-002：人物创建候选与身份选择界面
 
 - [ ] TASK-002
-预估：1h
-任务类型：feature
-执行角色：frontend-engineer
-涉及项目：apps/web
-风险等级：medium
-QA 策略：auto
-并行策略：serial
-依赖：app-shell/APP-SHELL-001, characters/TASK-001, studio/TASK-003
-涉及范围：apps/web/src/features/characters；src/app/characters
+      预估：1h
+      任务类型：feature
+      执行角色：frontend-engineer
+      涉及项目：apps/web
+      风险等级：medium
+      QA 策略：auto
+      并行策略：serial
+      依赖：app-shell/APP-SHELL-001, characters/TASK-001, studio/TASK-003
+      涉及范围：apps/web/src/features/characters；src/app/characters
 
 ### 目标与输入
 
@@ -87,7 +87,6 @@ pnpm --filter @praxis/web test -- characters
 ### 风险与恢复
 
 虚构人物生成、身份参考选择保存、再次复用。失败保留输入和已成功数据，先定位原因；不得通过吞掉错误或自动盲重发生成来通过。
-
 
 ## 标记
 
